@@ -47,9 +47,9 @@ class UI {
 
             // crear Popup
             const opcionesPopup = L.popup().setContent(`
-                <p>Calle ${nome}</p>
-                <p><b>Regular:</b> $ ${gasolina_comum}</p>
-                <p><b>Premiun:</b> $ ${gasolina_aditivada}</p>
+                <p>Posto ${nome}</p>
+                <p><b>Gasolina Comum:</b> R$ ${gasolina_comum}</p>
+                <p><b>Gasolina Aditivada:</b> R$ ${gasolina_aditivada}</p>
             `)
 
             // agregar el pin
