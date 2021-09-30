@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mapas | Combustíveis</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">
-        Preço dos Combustíveis em <b>São Paulo</b>
-      </a>
-      <form id="buscar" class="my-2 my-lg-0">
-        <input class="form-control" type="text" placeholder="Buscar" />
-      </form>
-    </nav>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-12">
-          <div id="mapa"></div>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mapas | Combustíveis</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">
+      Preço dos Combustíveis em <b>São Paulo</b>
+    </a>
+    <form id="buscar" class="my-2 my-lg-0">
+      <input class="form-control" type="text" placeholder="Buscar" />
+    </form>
+  </nav>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <div id="mapa"></div>
       </div>
     </div>
+  </div>
 
-    <footer>
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">
-        <span>Projeto Integrador da turma 004 da UNIVESP</span>
-        <script type="text/javascript">
-          document.write(new Date().getFullYear());
-        </script>
-        <br>
-        <a
-          href="https://github.com/camposFabio/projeto_integrador"
-          target="_blank"
-        >
-          GitHub</a
-        >
-      </div>
-      <!-- Copyright -->
-    </footer>
+  <footer>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <span>Projeto Integrador da turma 004 da UNIVESP</span>
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+      <br>
+      <a href="https://github.com/camposFabio/projeto_integrador" target="_blank">
+        GitHub</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
-    <style>
-      #mapa {
-        height: 500px;
-      }
-    </style>
+  <style>
+    #mapa {
+      height: 500px;
+    }
+  </style>
 
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="js/API.js"></script>
-    <script src="js/UI.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <script src="js/API.js"></script>
+  <script src="js/UI.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>

@@ -29,7 +29,7 @@ class UI {
     mostrarEstablecimientos() {
         this.api.obtenerDatos()
             .then(datos => {
-                const resultado = datos.respuestaJSON.results;
+                const resultado = datos.respuestaJSON.postos;
 
                 // ejecutar la funcion para mostrar los pines
                 this.mostrarPines(resultado);
@@ -43,13 +43,13 @@ class UI {
         // recorrer los establecimientos
         datos.forEach(dato => {
             // destructuring
-            const { latitude, longitude, calle, regular, premiun } = dato;
+            const { latitude, longitude, nome, gasolina_comum, gasolina_aditivada } = dato;
 
             // crear Popup
             const opcionesPopup = L.popup().setContent(`
-                <p>Calle ${calle}</p>
-                <p><b>Regular:</b> $ ${regular}</p>
-                <p><b>Premiun:</b> $ ${premiun}</p>
+                <p>Calle ${nome}</p>
+                <p><b>Regular:</b> $ ${gasolina_comum}</p>
+                <p><b>Premiun:</b> $ ${gasolina_aditivada}</p>
             `)
 
             // agregar el pin
