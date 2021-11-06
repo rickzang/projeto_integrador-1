@@ -2,18 +2,22 @@
 
 
 {% block content %}
-    <h1> {% block title %} Bem vindo ao serviço de postagens! {% endblock %}</h1>
+    <h1 class="text-center"> {% block title %} Buscador de preços de combustíveis {% endblock %}</h1>
 
-    {% for post in posts %}    
-        <a href="{{ url_for('post', post_id=post['id']) }}">
-            <h2>{{ post['title'] }}</h2>
-        </a>
-        <span class="badge badge-promary">{{ post['created'] }}</span>
-        <a href="{{ url_for('edit', post_id=post['id']) }}">
-            <span class="badge badge-warning">Edit</span>
-        </a>        
-        <br>
-    {% endfor %}
+    <form method="post">
+    <div class="form-group mt-5">
+        <label for="formlocalizacao" class="font-weight-bold"> Informe a sua localização: </label>
+        <input type="text" class="form-control" id="formlocalizacao"
+               placeholder="Endereço">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+    </form>
+
+    <h3 class="text-center mt-2"> {% block local %}  Localização do posto mais próximo {% endblock %} </h3>
+    <h4 class="text-center mt-2"> {% block map %}  (Colocar MAPA) {% endblock %} </h4>
+
 {% endblock %}
 
 
