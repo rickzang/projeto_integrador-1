@@ -1,23 +1,67 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>{% block title %} Criar uma nova Postagem {% endblock %}</h1>
+<h1 class="text-center">{% block title %} Cadastrar o preço do combustível {% endblock %}</h1>
+
+<div class="dropdown d-inline-block mt-3">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="bairro"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Selecionar Bairro
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<div class="dropdown d-inline-block">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="Bandeira" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Selecionar Bandeira
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<div class="dropdown d-inline-block">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="Posto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Selecionar Posto
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<div class="dropdown d-inline-block">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="Produto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Selecionar Produto
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+<h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
+<h3 class="text-center mt-2">{% block mapa %} (Colocar Mapa) {% endblock %} </h3>
+
 
 <form method="post">
-    <div class="form-group">
-        <label for="title">Título</label>
-        <input type="text" name="title"
-               placeholder="Título da Postagem" class="form-control"
-               value="{{ request.form['title'] }}"></input>
-    </div>
-
-    <div class="form-group">
-        <label for="content">Conteúdo</label>
-        <textarea name="content" placeholder="Conteúdo da Postagem"
-                  class="form-control">{{ request.form['content'] }}</textarea>
+    <div class="form-group mt-5">
+        <label for="formpreco" class="font-weight-bold"> Informar o preço: </label>
+        <input type="text" class="form-control" id="formpreco"
+               placeholder="Preço">
     </div>
     <div class="form-group">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary"> Cadastrar </button>
     </div>
 </form>
+
+
 {% endblock %}
