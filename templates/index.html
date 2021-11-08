@@ -1,33 +1,25 @@
 <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 <script src="https://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 
-{% extends 'base.html' %}
-
-
+{% extends "base.html" %}
 {% block content %}
-    <h1 class="text-center"> {% block title %} Buscador de preços de combustíveis {% endblock %}</h1>
-
-    <form method="post">
-    <div class="form-group mt-5">
-        <label for="formlocalizacao" class="font-weight-bold"> Informe a sua localização: </label>
-        <input type="text" class="form-control" id="formlocalizacao"
-               placeholder="Endereço">
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary">Buscar</button>
-    </div>
+    <form action="buscar" method="get">
+        <fieldset>
+            <div class="form-group">
+            <label>Informe a sua localização: </label>
+            <input type="text" id="endereco" name="endereco" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary btn-buscar">Buscar</button>
+        </fieldset>
     </form>
-
     <h3 class="text-center mt-2"> {% block local %}  Localização do posto mais próximo {% endblock %} </h3>
-    
-  <!-- Fonte para mapa: https://jonathansoma.com/tutorials/webapps/mapping-our-schools/-->
-
+    <!-- Fonte para mapa: https://jonathansoma.com/tutorials/webapps/mapping-our-schools/-->
     <div id="map" style="height: 500px; "></div>
     <script type="text/javascript">
         // The first parameter are the coordinates of the center of the map
         // The second parameter is the zoom level
         var map = L.map('map').setView([-23.5506507, -46.6333824], 12);
-        
+
         // {s}, {z}, {x} and {y} are placeholders for map tiles
         // {x} and {y} are the x/y of where you are on the map
         // {z} is the zoom level
@@ -35,11 +27,8 @@
           var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
         });
-        
+
         // Now add the layer onto the map
         map.addLayer(layer);
       </script>
-
 {% endblock %}
-
-

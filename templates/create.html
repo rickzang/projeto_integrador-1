@@ -1,67 +1,61 @@
-{% extends 'base.html' %}
-
+{% extends "base.html" %}
 {% block content %}
-<h1 class="text-center">{% block title %} Cadastrar o preço do combustível {% endblock %}</h1>
-
-<div class="dropdown d-inline-block mt-3">
-  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="bairro"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Selecionar Bairro
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
-
-<div class="dropdown d-inline-block">
-  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="Bandeira" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Selecionar Bandeira
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
-
-<div class="dropdown d-inline-block">
-  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="Posto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Selecionar Posto
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
-
-<div class="dropdown d-inline-block">
-  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="Produto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Selecionar Produto
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
-
-<h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
-<h3 class="text-center mt-2">{% block mapa %} (Colocar Mapa) {% endblock %} </h3>
-
-
-<form method="post">
-    <div class="form-group mt-5">
-        <label for="formpreco" class="font-weight-bold"> Informar o preço: </label>
-        <input type="text" class="form-control" id="formpreco"
-               placeholder="Preço">
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary"> Cadastrar </button>
-    </div>
-</form>
-
-
+    <form action="{{ url_for('cadastrarPreco') }}" method="post">
+        <fieldset>
+            <div class="form-group">
+                <div class="dropdown d-flex justify-content-between">
+                    <div class="dropdown-bairro">
+                        <input type="hidden" name="bairro" class="form-control">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="bairro" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Selecione o bairro
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="bairro">
+                            <a class="dropdown-item" href="#">ACLIMACAO</a>
+                            <a class="dropdown-item" href="#">AGUA BRANCA</a>
+                            <a class="dropdown-item" href="#">AGUA RASA</a>
+                            <a class="dropdown-item" href="#">ALTO DA LAPA</a>
+                            <a class="dropdown-item" href="#">ALTO DA MOOCA</a>
+                            <a class="dropdown-item" href="#">ALTO DE PINHEIROS</a>
+                            <a class="dropdown-item" href="#">ARTUR ALVIM</a>
+                            <a class="dropdown-item" href="#">BAIRRO DO ALEM</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-bandeira">
+                        <input type="hidden" name="bandeira" class="form-control">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="bandeira" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Selecione a bandeira
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="bandeira">
+                            <a class="dropdown-item" href="#">BRANCA</a>
+                            <a class="dropdown-item" href="#">RAIZEN</a>
+                            <a class="dropdown-item" href="#">AGUA RASA</a>
+                            <a class="dropdown-item" href="#">IPIRANGA</a>
+                            <a class="dropdown-item" href="#">PETROBRAS DISTRIBUIDORA S.A.</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-produto">
+                        <input type="hidden" name="produto" class="form-control">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="produto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Selecione o produto
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="produto">
+                            <a class="dropdown-item" href="#">ETANOL</a>
+                            <a class="dropdown-item" href="#">GASOLINA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Digite o nome do posto:</label>
+                <input type="text" id="nome" name="nome" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Digite o preço:</label>
+                <input type="text" id="preco" name="preco" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary btn-cadastrar">Cadastrar</button>
+        </fieldset>
+    </form>
+    <h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
+    <h3 class="text-center mt-2">{% block mapa %} (Colocar Mapa) {% endblock %} </h3>
 {% endblock %}
