@@ -9,7 +9,7 @@
                         <button class="btn btn-primary dropdown-toggle" type="button" id="bairro" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selecione o bairro
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="bairro">
+                        <div class="dropdown-menu scrollable-menu" aria-labelledby="bairro">
                             <a class="dropdown-item" href="#">ACLIMACAO</a>
                             <a class="dropdown-item" href="#">AGUA BRANCA</a>
                             <a class="dropdown-item" href="#">AGUA RASA</a>
@@ -162,7 +162,7 @@
                         <button class="btn btn-primary dropdown-toggle" type="button" id="bandeira" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selecione a bandeira
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="bandeira">
+                        <div class="dropdown-menu scrollable-menu" aria-labelledby="bandeira">
                             <a class="dropdown-item" href="#">BRANCA</a>
                             <a class="dropdown-item" href="#">RAIZEN</a>
                             <a class="dropdown-item" href="#">AGUA RASA</a>
@@ -175,7 +175,7 @@
                         <button class="btn btn-primary dropdown-toggle" type="button" id="produto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selecione o produto
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="produto">
+                        <div class="dropdown-menu scrollable-menu" aria-labelledby="produto">
                             <a class="dropdown-item" href="#">ETANOL</a>
                             <a class="dropdown-item" href="#">GASOLINA</a>
                         </div>
@@ -195,9 +195,11 @@
     </form>
     <h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
     <h3 class="text-center mt-2">{% block mapa %} (Colocar Mapa) {% endblock %} </h3>
-{% endblock %}
-<h1 class="text-center">{% block title %} Cadastrar o preço do combustível {% endblock %}</h1>
 
+
+<!-- PRIMEIRA PROPOSTA DE BOTÕES DE SELEÇÃO PARA CADASTRO 
+
+<h1 class="text-center">{% block title %} Cadastrar o preço do combustível {% endblock %}</h1>
 <div class="dropdown d-inline-block mt-3">
   <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="bairro"
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -249,8 +251,8 @@
   </div>
 </div>
 
-<h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
-<h3 class="text-center mt-2">{% block mapa %} (Colocar Mapa) {% endblock %} </h3>
+<h3 class="text-center mt-5">{% block confirma2 %} Confirmar localização {% endblock %} </h3>
+<h3 class="text-center mt-2">{% block mapa2 %} (Colocar Mapa) {% endblock %} </h3>
 
 
 <form method="post">
@@ -263,7 +265,5 @@
         <button type="submit" class="btn btn-primary"> Cadastrar </button>
     </div>
 </form>
-
-
+-->
 {% endblock %}
-
