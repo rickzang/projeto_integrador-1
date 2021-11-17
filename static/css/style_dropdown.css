@@ -2,3 +2,17 @@
     max-height: 150px;
     overflow-y: auto;
 }
+
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active,
+.btn-custom.active, .open .dropdown-toggle.btn {
+    color: #fec401 !important;
+}
+
+.dropdown-menu .dropdown-item {display: }
+.container .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #343a40;
+  border-color: #fff;
+}

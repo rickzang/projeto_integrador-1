@@ -1,0 +1,21 @@
+.nav-item::after {
+     content: '';
+     display: block;
+     width: 0px;
+     height: 3px;
+     background: #fec401;
+     transition: 0.7s
+}
+
+.nav-item:hover::after {
+     width: 100%
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fec401;
+}

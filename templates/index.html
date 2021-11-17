@@ -5,11 +5,11 @@
 {% block content %}
     <form action="buscar" method="get">
         <fieldset>
-            <div class="form-group">
-            <label>Informe a sua localização: </label>
+            <div class="form-group mt-3">
+            <label style="font-size: 20px">Informe a sua localização: </label>
             <input type="text" id="endereco" name="endereco" class="form-control">
             </div>
-            <button type="submit" class="btn btn-primary btn-buscar">Buscar</button>
+            <button type="submit" class="btn btn-dark btn-custom">Buscar</button>
         </fieldset>
     </form>
     <h3 class="text-center mt-2"> {% block local %}  Localização do posto mais próximo {% endblock %} </h3>
