@@ -1,6 +1,21 @@
 h1 {
-    border: 2px #eee solid;
-    color: brown;
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+label {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+button {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h3 {
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 27px;
 }

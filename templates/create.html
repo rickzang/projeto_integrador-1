@@ -6,10 +6,10 @@
                 <div class="dropdown d-flex justify-content-between">
                     <div class="dropdown-bairro">
                         <input type="hidden" name="bairro" class="form-control">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="bairro" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-dark dropdown-toggle btn-custom" type="button" id="bairro" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selecione o bairro
                         </button>
-                        <div class="dropdown-menu scrollable-menu" aria-labelledby="bairro">
+                        <div class="dropdown-menu scrollable-menu dropdown-custom" aria-labelledby="bairro">
                             <a class="dropdown-item" href="#">ACLIMACAO</a>
                             <a class="dropdown-item" href="#">AGUA BRANCA</a>
                             <a class="dropdown-item" href="#">AGUA RASA</a>
@@ -304,7 +304,7 @@
                     </div>
                     <div class="dropdown-bandeira">
                         <input type="hidden" name="bandeira" class="form-control">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="bandeira" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-dark btn-custom dropdown-toggle" type="button" id="bandeira" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selecione a bandeira
                         </button>
                         <div class="dropdown-menu scrollable-menu" aria-labelledby="bandeira">
@@ -317,7 +317,7 @@
                     </div>
                     <div class="dropdown-produto">
                         <input type="hidden" name="produto" class="form-control">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="produto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-dark btn-custom dropdown-toggle" type="button" id="produto" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Selecione o produto
                         </button>
                         <div class="dropdown-menu scrollable-menu" aria-labelledby="produto">
@@ -328,14 +328,14 @@
                 </div>
             </div>
             <div class="form-group mt-5">
-                <label>Digite o nome do posto:</label>
+                <label style="font-size: 22px">Digite o nome do posto:</label>
                 <input type="text" id="nome" name="nome" class="form-control">
             </div>
             <div class="form-group mt-5">
-                <label>Digite o preço:</label>
+                <label style="font-size: 22px">Digite o preço:</label>
                 <input type="text" id="preco" name="preco" class="form-control">
             </div>
-            <button type="submit" class="mt-5 btn btn-primary btn-cadastrar">Cadastrar</button>
+            <button type="submit" class="mt-2 btn btn-dark btn-custom">Cadastrar</button>
         </fieldset>
     </form>
     <h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
