@@ -1,17 +1,27 @@
+# execução normal
+# export FLASK_APP=app.py
+# export FLASK_ENV=development
+# flask run
+
+# execução com Python/Flash dentro do docker
+# docker run -t -i -p 5000:5000   <Nome da imagem>
+# Caso queira que o docker acesse o projeto no micro local adicionar 
+#-v <diretório local do projeto>:<Diretorio dentro do docker>
+
 from flask import Flask, render_template, request, url_for, flash, redirect
 from flask_mysqldb import MySQL
 from models import Posto
 from dao import PostoDao
 import os, datetime
-import sqlite3
+#import sqlite3
 from werkzeug.exceptions import abort
 
-project_dir = os.path.dirname(os.path.abspath(__file__))
-database_file = "sqlite:///{}".format(os.path.join(project_dir, 'database.db'))
+#project_dir = os.path.dirname(os.path.abspath(__file__))
+#database_file = "sqlite:///{}".format(os.path.join(project_dir, 'database.db'))
 
 app = Flask(__name__)
 app.secret_key = 'app'
-app.config['MYSQL_HOST'] = "127.0.0.1"
+app.config['MYSQL_HOST'] = "localhost"
 app.config['MYSQL_USER'] = "root"
 app.config['MYSQL_PASSWORD'] = "root"
 app.config['MYSQL_DB'] = "pi_grupo04_2021"

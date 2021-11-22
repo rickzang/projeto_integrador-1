@@ -4,7 +4,7 @@ SQL_DELETA_POSTO = 'delete from posto where id = %s'
 SQL_POSTO_POR_ID = 'SELECT id, preco, produto, bairro, nome, bandeira, console from posto where id = %s'
 SQL_ATUALIZA_POSTO = 'UPDATE posto SET preco=%s, produto=%s, bairro=%s, nome=%s, bandeira=%s where id = %s'
 SQL_BUSCA_POSTOS = 'SELECT id, preco, produto, bairro, nome, bandeira from posto'
-SQL_CRIA_POSTO = 'INSERT into posto (preco, produto, bairro, nome, bandeira) values (%s, %s, %s, %s, %s)'
+SQL_CRIA_POSTO = 'INSERT INTO posto (preco, produto, bairro, nome, bandeira) values (%s, %s, %s, %s, %s)'
 
 
 class PostoDao:
