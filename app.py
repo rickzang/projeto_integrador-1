@@ -7,11 +7,13 @@
 # docker run -t -i -p 5000:5000   <Nome da imagem>
 # Caso queira que o docker acesse o projeto no micro local adicionar 
 #-v <diretório local do projeto>:<Diretorio dentro do docker>
+# flask run --host=0.0.0.0
 
 from flask import Flask, render_template, request, url_for, flash, redirect
 from flask_mysqldb import MySQL
 from models import Posto
 from dao import PostoDao
+from urllib.parse import urlparse
 import os, datetime
 #import sqlite3
 from werkzeug.exceptions import abort
@@ -22,9 +24,12 @@ from werkzeug.exceptions import abort
 app = Flask(__name__)
 app.secret_key = 'app'    
 
-if 'DATABASE_URL' in os.environ: # ClearDB MySQL
-    url = urlparse.urlparse(os.environ['DATABASE_URL'])
+if 'CLEARDB_DATABASE_URL' in os.environ: # ClearDB MySQL
+    print('ClearDB')
+    url = urlparse(os.environ['CLEARDB_DATABASE_URL'])
+    #url = urlparse('mysql://ba491f89150436:7132d90d@us-cdbr-east-04.cleardb.com/heroku_369bd959b89563b?reconnect=true')
     app.config['MYSQL_HOST'] = url.hostname
+    print(url.hostname)
     app.config['MYSQL_USER'] = url.username
     app.config['MYSQL_PASSWORD'] = url.password   
     app.config['MYSQL_DB'] = url.path[1:]

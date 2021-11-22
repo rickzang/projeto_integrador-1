@@ -10,6 +10,7 @@ SQL_CRIA_POSTO = 'INSERT INTO posto (preco, produto, bairro, nome, bandeira) val
 class PostoDao:
     def __init__(self, db):
         self.__db = db
+        
 
     def salvar(self, posto):
         cursor = self.__db.connection.cursor()
