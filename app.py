@@ -20,12 +20,22 @@ from werkzeug.exceptions import abort
 #database_file = "sqlite:///{}".format(os.path.join(project_dir, 'database.db'))
 
 app = Flask(__name__)
-app.secret_key = 'app'
-app.config['MYSQL_HOST'] = "localhost"
-app.config['MYSQL_USER'] = "root"
-app.config['MYSQL_PASSWORD'] = "root"
-app.config['MYSQL_DB'] = "pi_grupo04_2021"
-app.config['MYSQL_PORT'] = 3306
+app.secret_key = 'app'    
+
+if 'DATABASE_URL' in os.environ: # ClearDB MySQL
+    url = urlparse.urlparse(os.environ['DATABASE_URL'])
+    app.config['MYSQL_HOST'] = url.hostname
+    app.config['MYSQL_USER'] = url.username
+    app.config['MYSQL_PASSWORD'] = url.password   
+    app.config['MYSQL_DB'] = url.path[1:]
+    app.config['MYSQL_PORT'] = url.port
+else:
+    app.config['MYSQL_HOST'] = 'localhost'
+    app.config['MYSQL_USER'] = "root"   
+    app.config['MYSQL_PASSWORD'] = "root"
+    app.config['MYSQL_DB'] = "pi_grupo04_2021"
+    app.config['MYSQL_PORT'] = 3306
+
 
 db = MySQL(app)
 
