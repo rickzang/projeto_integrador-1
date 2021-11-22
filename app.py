@@ -27,7 +27,6 @@ app.secret_key = 'app'
 if 'CLEARDB_DATABASE_URL' in os.environ: # ClearDB MySQL
     print('ClearDB')
     url = urlparse(os.environ['CLEARDB_DATABASE_URL'])
-    #url = urlparse('mysql://ba491f89150436:7132d90d@us-cdbr-east-04.cleardb.com/heroku_369bd959b89563b?reconnect=true')
     app.config['MYSQL_HOST'] = url.hostname
     print(url.hostname)
     app.config['MYSQL_USER'] = url.username
