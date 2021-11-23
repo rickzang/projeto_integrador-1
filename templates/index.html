@@ -3,7 +3,7 @@
 
 {% extends "base.html" %}
 {% block content %}
-    <form action="buscar" method="get">
+    <form id="search">
         <fieldset>
             <div class="form-group mt-3">
             <label style="font-size: 25px">Informe a sua localização: </label>
@@ -16,6 +16,12 @@
     <!-- Fonte para mapa: https://jonathansoma.com/tutorials/webapps/mapping-our-schools/-->
     <div id="map" style="height: 500px; "></div>
     <script type="text/javascript">
+    
+        //Pega informação do endereço digitado.
+        document.getElementById("search").addEventListener("submit", function (e){
+            var address = e.target.endereco.value;
+        });
+        
         // The first parameter are the coordinates of the center of the map
         // The second parameter is the zoom level
         var map = L.map('map').setView([-23.5506507, -46.6333824], 12);
