@@ -3,6 +3,11 @@
 # export FLASK_ENV=development
 # flask run
 
+# Para sistema operacional Windows, usar os comandos:
+# set FLASK_APP=app.py
+# set FLASK_ENV=development
+# flask run
+
 # execução com Python/Flash dentro do docker
 # docker run -t -i -p 5000:5000   <Nome da imagem>
 # Caso queira que o docker acesse o projeto no micro local adicionar 
