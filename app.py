@@ -50,6 +50,10 @@ posto_dao = PostoDao(db)
 def index():
     return render_template('index.html', titulo='Buscador de preços de combustíveis')
 
+@app.route('/about')
+def about():
+    return render_template('about.html', titulo='Sobre')
+
 
 @app.route('/create')
 def novoPosto():
