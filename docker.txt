@@ -1,0 +1,82 @@
+comandos básicos do docker:
+- listar as imagens existentes: docker image ls
+- apagar uma image: docker image rm <imagem> 
+
+Quando você executa uma imagem o docker cria um container para esta execução
+
+- listar os containers em execução: docker container ls
+- listar os containers executados:  docker container ps -a
+- remover um container : docker container rm <container>
+
+para adicionar ou remover containers/imagens pode usar os 5 primeiros caracteres do container/image ID
+
+Para executar uma imagem use:
+  docker run <imagem>
+
+Para guardar as alterações feitas em um container em uma nocva imagem:
+  docker container ps -a  (para ver o ID do container que foi executado)
+  docker commit <container> <nome da nova imagem> (para criar uma nova imagem com as alterações do container)
+
+Criação de ambiente para execução do projeto: 
+
+1 - Baixar a imagem do ubuntu (pode demorar dependendo da velocidade da internet)
+  docker pull ubuntu
+2 - Acessando o bash dentro da imagem para preparação dos requisitos
+  docker run -t -i ubuntu bash
+
+3 - Atualizar o ubuntu:
+  apt-get update
+  apt-get upgrade
+
+4 - Instalação dos requisitos: (pode demorar dependendo da velocidade da internet)
+  apt-get install python3 python3-pip mariadb-server nano libmariadbclient-dev systemctl
+
+5 - Ajuste no ambiente: 
+  update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1 (permite chamar o python)
+  update-rc.d mysql defaults (executa o mariadb automaticamente)
+  echo service mysql start >> ~/.bashrc (as vezes o comando acima não funciona. este garante que o server seja executado)
+  service mysql start (inicia o servico do mariadb)
+
+6 - Configuração do maria_db:
+  mysql_secure_installation
+    Opções que usei:
+    Change the root password? [Y/n] y - Mude a senha para root
+    Remove anonymous users? [Y/n] n
+    Disallow root login remotely? [Y/n] n
+    Remove test database and access to it? [Y/n] y
+    Reload privilege tables now? [Y/n] y
+
+7 - Instalação das dependencias do projeto:
+  pip install Flask flask_mysqldb gunicorn
+  exit
+
+5 - Neste passo eu sai o do docker e "commito" as alterações e removo os containers/images usados
+    docker container ps -a 
+    docker commit <container ID> proj_int (container ID é o ID da última execução) (proj_int é o nome da nova imagem criada)
+
+6 - Agora o projeto está pronto para ser executado: 
+   docker run -t -i -p 5000:5000 -v "<diretório do projeto em seu computador>":/work  proj_int
+   (estou mapeando o diretório do projeto em meu micro para o diretório work dentro do docker, por exemplo:
+   docker run -t -i -p 5000:5000 -v "c:/git/projeto_integrador":/work  proj_int
+   )
+
+7 - Criar o banco:
+    cd /work
+    python ./init_db.py   
+    exit
+
+8 - "Commitar" a criação do banco:
+    docker container ps -a 
+    docker commit <container ID> proj_int (container ID é o ID da última execução) (proj_int é o nome da nova imagem)
+
+9 - Limpeza:
+    docker container -ps a
+    docker container rm <ID dos containers do comando acima>
+    (se quiser remover imagens extras:)
+    docker image ls        
+    docker image rm <ID das imagens que não serão mais utilizadas> (cuidado para não remover a imagem criada no passo 8!)
+
+10 - Para executar o projeto:
+    docker run -t -i -p 5000:5000 -v "<diretório do projeto em seu computador>":/work  proj_int
+    cd /work
+    ./flask_run_docker.sh 

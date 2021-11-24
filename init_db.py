@@ -10,9 +10,11 @@ if 'CLEARDB_DATABASE_URL' in os.environ: # ClearDB MySQL
     conn = MySQLdb.connect(user=url.username, passwd=url.password, host=url.hostname)
     DATABASE = url.path[1:]
 else:
+
     conn = MySQLdb.connect(user='root', passwd='root', host='localhost', port=3306)
- 
-#conn.cursor().execute("DROP DATABASE IF EXISTS `pi_grupo04_2021`;")
+    conn.cursor().execute("DROP DATABASE IF EXISTS `pi_grupo04_2021`;")
+    conn.cursor().execute("CREATE DATABASE `pi_grupo04_2021` ;")
+
 conn.commit()
 
 criar_tabelas = '''SET NAMES utf8;
