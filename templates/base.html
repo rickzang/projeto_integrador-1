@@ -8,8 +8,11 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
+        <!-- Select2 -->
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
         <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="static/css/style_dropdown.css">
+        <link rel="stylesheet" type="text/css" href="static/css/style_form.css">
         <link rel="stylesheet" type="text/css" href="static/css/style_navbar.css">
         <link rel="stylesheet" type="text/css" href="static/css/style.css">
         
@@ -69,6 +72,9 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
     
+<!-- Select2 -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
     <script>
     //Efeito na barra principal
         $( document ).ready(function() {
@@ -84,6 +90,18 @@
                 $('.nav-item--index').addClass('active');
             }
         });
+
+    $(document).ready(function() {
+            $('#Bairroform').select2();
+        });
+
+        $(document).ready(function() {
+            $('#Bandeiraform').select2();
+        });
+
+        $(document).ready(function() {
+            $('#Combustivelform').select2();
+    });
     </script>
     
     </body>
