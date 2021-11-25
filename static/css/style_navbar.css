@@ -7,12 +7,13 @@
      transition: 0.7s
 }
 
-.nav-item:hover::after {
+.nav-item.active::after {
      width: 100%
 }
 
 .navbar-nav .nav-item .nav-link {
-    font-size: 20px;
+    font-size: 24px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .navbar-nav .nav-item.active .nav-link,
