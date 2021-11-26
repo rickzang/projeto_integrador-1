@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<form class="mt-5" action="{{ url_for('cadastrarPreco') }}" method="post">
+<form class="needs-validation mt-5" action="{{ url_for('cadastrarPreco') }}" method="post" novalidate>
   <div class="form-row">
     <div class="form-group col-md-4">
       <label class="label-form-select" for="Bairroform">Selecione o bairro:</label>
@@ -23,20 +23,298 @@
             <option value="BOM RETIRO" >BOM RETIRO</option>
             <option value="BOSQUE DA SAUDE" >BOSQUE DA SAUDE</option>
             <option value="BRÁS" >BRÁS</option>
+            <option value="BROOKLIN" >BROOKLIN</option>
+            <option value="BUTANTÃ" >BUTANTÃ</option>
+            <option value="CAMBUCI" >CAMBUCI</option>
+            <option value="CAMPO BELO" >CAMPO BELO</option>
+            <option value="CAMPO GRANDE" >CAMPO GRANDE</option>
+            <option value="CAMPOS ELÍSEOS" >CAMPOS ELÍSEOS</option>
+            <option value="CANINDÉ" >CANINDÉ</option>
+            <option value="CARANDIRU" >CARANDIRU</option>
+            <option value="CASA VERDE" >CASA VERDE</option>
+            <option value="CAXINGUI" >CAXINGUI</option>
+            <option value="CENTRO" >CENTRO</option>
+            <option value="CERQUEIRA CÉSAR" >CERQUEIRA CÉSAR</option>
+            <option value="CHACARA BELENZINHO" >CHACARA BELENZINHO</option>
+            <option value="CHACARA CALIFORNIA" >CHACARA CALIFORNIA</option>
+            <option value="CHACARA MAFALDA" >CHACARA MAFALDA</option>
+            <option value="CHACARA PARAISO" >CHACARA PARAISO</option>
+            <option value="CHACARA SANTO ANTONIO (ZONA LESTE)" >CHACARA SANTO ANTONIO (ZONA LESTE)</option>
+            <option value="CICY LAPA 1" >CICY LAPA 1</option>
+            <option value="CIDADE AE CARVALHO" >CIDADE AE CARVALHO</option>
+            <option value="CIDADE ADEMAR" >CIDADE ADEMAR</option>
+            <option value="CIDADE LIDER" >CIDADE LIDER</option>
+            <option value="CIDADE MÃE DO CÉU" >CIDADE MÃE DO CÉU</option>
+            <option value="CIDADE MONÇÕES" >CIDADE MONÇÕES</option>
+            <option value="CIDADE NITRO OPERÁRIA" >CIDADE NITRO OPERÁRIA</option>
+            <option value="CIDADE PATRIARCA" >CIDADE PATRIARCA</option>
+            <option value="CIDADE TIRADENTES" >CIDADE TIRADENTES</option>
+            <option value="COHAB J.BONIFACIO" >COHAB J.BONIFACIO</option>
+            <option value="CONSOLACAO" >CONSOLACAO</option>
+            <option value="ERMELINO MATARAZZO" >ERMELINO MATARAZZO</option>
+            <option value="FAZENDA SANTA ETELVINA" >FAZENDA SANTA ETELVINA</option>
+            <option value="FERREIRA" >FERREIRA</option>
+            <option value="FREGUESIA DO Ó" >FREGUESIA DO Ó</option>
+            <option value="GUAIANAZES" >GUAIANAZES</option>
+            <option value="GUAIAUNA" >GUAIAUNA</option>
+            <option value="GUARAPIRANGA" >GUARAPIRANGA</option>
+            <option value="GUARULHOS 3" >GUARULHOS 3</option>
+            <option value="HIGIENOPOLIS" >HIGIENOPOLIS</option>
+            <option value="IMIRIM" >IMIRIM</option>
+            <option value="INTERLAGOS" >INTERLAGOS</option>
+            <option value="IPIRANGA" >IPIRANGA</option>
+            <option value="ITABERABA" >ITABERABA</option>
+            <option value="ITAIM BIBI" >ITAIM BIBI</option>
+            <option value="ITAIM PAULISTA" >ITAIM PAULISTA</option>
+            <option value="ITAQUERA" >ITAQUERA</option>
+            <option value="JARDIM SÃO CRISTOVAO" >JARDIM SÃO CRISTOVAO</option>
+            <option value="JABAQUARA" >JABAQUARA</option>
+            <option value="JAÇANÃ" >JAÇANÃ</option>
+            <option value="JAGUARÉ" >JAGUARÉ</option>
+            <option value="JARAGUÁ" >JARAGUÁ</option>
+            <option value="JARDIM ADELFIORI" >JARDIM ADELFIORI</option>
+            <option value="JARDIM AMALIA" >JARDIM AMALIA</option>
+            <option value="JARDIM AMÉRICA" >JARDIM AMÉRICA</option>
+            <option value="JARDIM AMÉRICA DA PENHA" >JARDIM AMÉRICA DA PENHA</option>
+            <option value="JARDIM ANÁLIA FRANCO" >JARDIM ANÁLIA FRANCO</option>
+            <option value="JARDIM ANGELA" >JARDIM ANGELA</option>
+            <option value="JARDIM ARICANDUVA" >JARDIM ARICANDUVA</option>
+            <option value="JARDIM AVELINO" >JARDIM AVELINO</option>
+            <option value="JARDIM BRASIL" >JARDIM BRASIL</option>
+            <option value="JARDIM BRASIL (ZONA NORTE)" >JARDIM BRASIL (ZONA NORTE)</option>
+            <option value="JARDIM CELESTE" >JARDIM CELESTE</option>
+            <option value="JARDIM CLIMAX" >JARDIM CLIMAX</option>
+            <option value="JARDIM COLONIAL" >JARDIM COLONIAL</option>
+            <option value="JARDIM CONSORCIO" >JARDIM CONSORCIO</option>
+            <option value="JARDIM COTINHA" >JARDIM COTINHA</option>
+            <option value="JARDIM DA SAUDE" >JARDIM DA SAUDE</option>
+            <option value="JARDIM DAS BANDEIRAS" >JARDIM DAS BANDEIRAS</option>
+            <option value="JARDIM DAS OLIVEIRAS" >JARDIM DAS OLIVEIRAS</option>
+            <option value="JARDIM DAS ROSAS - PINHEIROS" >JARDIM DAS ROSAS - PINHEIROS</option>
+            <option value="JARDIM DULIN" >JARDIM DULIN</option>
+            <option value="JARDIM ESMERALDA" >JARDIM ESMERALDA</option>
+            <option value="JARDIM ESPERANÇA" >JARDIM ESPERANÇA</option>
+            <option value="JARDIM GLORIA" >JARDIM GLORIA</option>
+            <option value="JARDIM GRIMALDI" >JARDIM GRIMALDI</option>
+            <option value="JARDIM GUAIRACA" >JARDIM GUAIRACA</option>
+            <option value="JARDIM HELENA" >JARDIM HELENA</option>
+            <option value="JARDIM IDA GUEDES" >JARDIM IDA GUEDES</option>
+            <option value="JARDIM IGUATEMI - SAO MATHEUS" >JARDIM IGUATEMI - SAO MATHEUS</option>
+            <option value="JARDIM IPANEMA" >JARDIM IPANEMA</option>
+            <option value="JARDIM IV CENTENARIO" >JARDIM IV CENTENARIO</option>
+            <option value="JARDIM JAPAO" >JARDIM JAPAO</option>
+            <option value="JARDIM LEILA" >JARDIM LEILA</option>
+            <option value="JARDIM MAIA" >JARDIM MAIA</option>
+            <option value="JARDIM MARAJOARA" >JARDIM MARAJOARA</option>
+            <option value="JARDIM MARIA ESTELA" >JARDIM MARIA ESTELA</option>
+            <option value="JARDIM MARINA" >JARDIM MARINA</option>
+            <option value="JARDIM MARISTELA" >JARDIM MARISTELA</option>
+            <option value="JARDIM MODELO" >JARDIM MODELO</option>
+            <option value="JARDIM NOSSA SENHORA DO CARMO" >JARDIM NOSSA SENHORA DO CARMO</option>
+            <option value="JARDIM PAULISTA" >JARDIM PAULISTA</option>
+            <option value="JARDIM PEREIRA LEITE" >JARDIM PEREIRA LEITE</option>
+            <option value="JARDIM POPULAR" >JARDIM POPULAR</option>
+            <option value="JARDIM PREVIDENCIA" >JARDIM PREVIDENCIA</option>
+            <option value="JARDIM PRUDENCIA" >JARDIM PRUDENCIA</option>
+            <option value="JARDIM REGINA - PIRITUBA" >JARDIM REGINA - PIRITUBA</option>
+            <option value="JARDIM SÃO PAULO" >JARDIM SÃO PAULO</option>
+            <option value="JARDIM SAO SEBASTIÃO" >JARDIM SAO SEBASTIÃO</option>
+            <option value="JARDIM TREMEMBÉ" >JARDIM TREMEMBÉ</option>
+            <option value="JARDIM UMUARAMA" >JARDIM UMUARAMA</option>
+            <option value="JARDIM VILA MARIANA" >JARDIM VILA MARIANA</option>
+            <option value="JARDIM VIRGINIA" >JARDIM VIRGINIA</option>
+            <option value="JARDIM VISTA LINDA" >JARDIM VISTA LINDA</option>
+            <option value="JARDIM COTINHA" >JARDIM COTINHA</option>
+            <option value="JARDIM DA GLORIA" >JARDIM DA GLORIA</option>
+            <option value="JARDIM DA SAUDE" >JARDIM DA SAUDE</option>
+            <option value="JARDIM DONA SINHA" >JARDIM DONA SINHA</option>
+            <option value="JARDIM IMPERADOR" >JARDIM IMPERADOR</option>
+            <option value="JARDIM NOSSA SENHORA DO CAMINHO" >JARDIM NOSSA SENHORA DO CAMINHO</option>
+            <option value="JARDIM NOSSA SENHORA DO CARMO" >JARDIM NOSSA SENHORA DO CARMO</option>
+            <option value="JARDIM SÃO PAULO" >JARDIM SÃO PAULO</option>
+            <option value="JARDIM SILVA TELES" >JARDIM SILVA TELES</option>
+            <option value="JARDIM HILTON SANTOS" >JARDIM HILTON SANTOS</option>
+            <option value="JARDIM RAPOSO TAVARES" >JARDIM RAPOSO TAVARES</option>
+            <option value="JURUBATUBA" >JURUBATUBA</option>
+            <option value="LAPA" >LAPA</option>
+            <option value="LIBERDADE" >LIBERDADE</option>
+            <option value="LIMAO" >LIMAO</option>
+            <option value="LIMOEIRO" >LIMOEIRO</option>
+            <option value="MERCADO" >MERCADO</option>
+            <option value="MOEMA" >MOEMA</option>
+            <option value="MOINHO VELHO" >MOINHO VELHO</option>
+            <option value="MOOCA" >MOOCA</option>
+            <option value="NOSSA SENHORA DO O" >NOSSA SENHORA DO O</option>
+            <option value="NOVA MOOCA" >NOVA MOOCA</option>
+            <option value="PACAEMBU" >PACAEMBU</option>
+            <option value="PARADA XV DE NOVEMBRO" >PARADA XV DE NOVEMBRO</option>
+            <option value="PARI" >PARI</option>
+            <option value="PARQUE BOA ESPERANCA" >PARQUE BOA ESPERANCA</option>
+            <option value="PARQUE BOTURUSSU" >PARQUE BOTURUSSU</option>
+            <option value="PARQUE DA MOOCA" >PARQUE DA MOOCA</option>
+            <option value="PARQUE DO ESTADO" >PARQUE DO ESTADO</option>
+            <option value="PARQUE EDU CHAVES" >PARQUE EDU CHAVES</option>
+            <option value="PARQUE NOVO MUNDO" >PARQUE NOVO MUNDO</option>
+            <option value="PARQUE PAINEIRAS" >PARQUE PAINEIRAS</option>
+            <option value="PARQUE PAULISTANO" >PARQUE PAULISTANO</option>
+            <option value="PARQUE SANTA RITA" >PARQUE SANTA RITA</option>
+            <option value="PARQUE SAO DOMINGOS" >PARQUE SAO DOMINGOS</option>
+            <option value="PARQUE SAO JORGE" >PARQUE SAO JORGE</option>
+            <option value="PARQUE SAO LUCAS" >PARQUE SAO LUCAS</option>
+            <option value="PEDREIRA" >PEDREIRA</option>
+            <option value="PENHA" >PENHA</option>
+            <option value="PENHA DE FRANCA" >PENHA DE FRANCA</option>
+            <option value="PERDIZES" >PERDIZES</option>
+            <option value="PERUS" >PERUS</option>
+            <option value="PINHEIROS" >PINHEIROS</option>
+            <option value="PIQUERI" >PIQUERI</option>
+            <option value="PIRITUBA" >PIRITUBA</option>
+            <option value="POMPÉIA" >POMPÉIA</option>
+            <option value="PONTE PEQUENA" >PONTE PEQUENA</option>
+            <option value="PONTE RASA" >PONTE RASA</option>
+            <option value="PQ BRISTOL" >PQ BRISTOL</option>
+            <option value="PQ DO CARMO" >PQ DO CARMO</option>
+            <option value="PQ NOVO MUNDO" >PQ NOVO MUNDO</option>
+            <option value="PRQ SAO LUCAS" >PRQ SAO LUCAS</option>
+            <option value="QUARTA PARADA" >QUARTA PARADA</option>
+            <option value="QUINTA DA PAINEIRA" >QUINTA DA PAINEIRA</option>
+            <option value="RIO BONITO" >RIO BONITO</option>
+            <option value="RIO PEQUENO" >RIO PEQUENO</option>
+            <option value="SÃO MIGUEL PAULISTA" >SÃO MIGUEL PAULISTA</option>
+            <option value="SACOMÃ" >SACOMÃ</option>
+            <option value="SANTA CECÍLIA" >SANTA CECÍLIA</option>
+            <option value="SANTA EFIGÊNIA" >SANTA EFIGÊNIA</option>
+            <option value="SANTANA" >SANTANA</option>
+            <option value="SANTO AMARO" >SANTO AMARO</option>
+            <option value="SÃO JOÃO CLIMACO" >SÃO JOÃO CLIMACO</option>
+            <option value="SAO MIGUEL" >SAO MIGUEL</option>
+            <option value="SAO MIGUEL PAULISTA" >SAO MIGUEL PAULISTA</option>
+            <option value="SAO PAULO" >SAO PAULO</option>
+            <option value="SAPOPEMBA" >SAPOPEMBA</option>
+            <option value="SAÚDE" >SAÚDE</option>
+            <option value="SÉ" >SÉ</option>
+            <option value="SOCORRO" >SOCORRO</option>
+            <option value="SUMARÉ" >SUMARÉ</option>
+            <option value="SUMAREZINHO" >SUMAREZINHO</option>
+            <option value="TATUAPÉ" >TATUAPÉ</option>
+            <option value="TREMEMBÉ" >TREMEMBÉ</option>
+            <option value="TUCURUVI" >TUCURUVI</option>
+            <option value="VILA ALBERTINA" >VILA ALBERTINA</option>
+            <option value="VILA ALPINA" >VILA ALPINA</option>
+            <option value="VILA AMERICANA" >VILA AMERICANA</option>
+            <option value="VILA ANGELICA" >VILA ANGELICA</option>
+            <option value="VILA ANHANGUERA" >VILA ANHANGUERA</option>
+            <option value="VILA ANTONIETA" >VILA ANTONIETA</option>
+            <option value="VILA ARICANDUVA" >VILA ARICANDUVA</option>
+            <option value="VILA BANDEIRANTES" >VILA BANDEIRANTES</option>
+            <option value="VILA BERTIOGA" >VILA BERTIOGA</option>
+            <option value="VILA BONILHA" >VILA BONILHA</option>
+            <option value="VILA BUARQUE" >VILA BUARQUE</option>
+            <option value="VILA BUENOS AIRES" >VILA BUENOS AIRES</option>
+            <option value="VILA CALIFORNIA" >VILA CALIFORNIA</option>
+            <option value="VILA CAROLINA" >VILA CAROLINA</option>
+            <option value="VILA CARRÃO" >VILA CARRÃO</option>
+            <option value="VILA CURUÇÁ" >VILA CURUÇÁ</option>
+            <option value="VILA CURUÇA VELHA" >VILA CURUÇA VELHA</option>
+            <option value="VILA DALVA" >VILA DALVA</option>
+            <option value="VILA DAS MERCES" >VILA DAS MERCES</option>
+            <option value="VILA DIVA" >VILA DIVA</option>
+            <option value="VILA EDE" >VILA EDE</option>
+            <option value="VILA ELEONORA" >VILA ELEONORA</option>
+            <option value="VILA ELISEU" >VILA ELISEU</option>
+            <option value="VILA EMA" >VILA EMA</option>
+            <option value="VILA EMIR" >VILA EMIR</option>
+            <option value="VILA ESPERANÇA" >VILA ESPERANÇA</option>
+            <option value="VILA FIRMIANO PINTO" >VILA FIRMIANO PINTO</option>
+            <option value="VILA FORMOSA" >VILA FORMOSA</option>
+            <option value="VILA GOMES CARDIM" >VILA GOMES CARDIM</option>
+            <option value="VILA GRANADA" >VILA GRANADA</option>
+            <option value="VILA GUARANI" >VILA GUARANI</option>
+            <option value="VILA GUILHERME" >VILA GUILHERME</option>
+            <option value="VILA GUMERCINDO" >VILA GUMERCINDO</option>
+            <option value="VILA GUSTAVO" >VILA GUSTAVO</option>
+            <option value="VILA HAMBURGUESA" >VILA HAMBURGUESA</option>
+            <option value="VILA INDEPENDENCIA" >VILA INDEPENDENCIA</option>
+            <option value="VILA INDUSTRIAL" >VILA INDUSTRIAL</option>
+            <option value="VILA ISABEL" >VILA ISABEL</option>
+            <option value="VILA IZOLINA MAZZEI" >VILA IZOLINA MAZZEI</option>
+            <option value="VILA JAGUARÁ" >VILA JAGUARÁ</option>
+            <option value="VILA LAIS" >VILA LAIS</option>
+            <option value="VILA LEOPOLDINA" >VILA LEOPOLDINA</option>
+            <option value="VILA LIVIEIRO" >VILA LIVIEIRO</option>
+            <option value="VILA MANCHESTER" >VILA MANCHESTER</option>
+            <option value="VILA MARIA" >VILA MARIA</option>
+            <option value="VILA MARIA ALTA" >VILA MARIA ALTA</option>
+            <option value="VILA MARIANA" >VILA MARIANA</option>
+            <option value="VILA MARIETA" >VILA MARIETA</option>
+            <option value="VILA MATIAS" >VILA MATIAS</option>
+            <option value="VILA MATILDE" >VILA MATILDE</option>
+            <option value="VILA MAZZEI" >VILA MAZZEI</option>
+            <option value="VILA MEDEIROS" >VILA MEDEIROS</option>
+            <option value="VILA MERCEDES" >VILA MERCEDES</option>
+            <option value="VILA MOINHO VELHO" >VILA MOINHO VELHO</option>
+            <option value="VILA MONTEVIDEO" >VILA MONTEVIDEO</option>
+            <option value="VILA MONUMENTO" >VILA MONUMENTO</option>
+            <option value="VILA MORAES" >VILA MORAES</option>
+            <option value="VILA NANCY" >VILA NANCY</option>
+            <option value="VILA NHOCUNE" >VILA NHOCUNE</option>
+            <option value="VILA NILO" >VILA NILO</option>
+            <option value="VILA NORMA" >VILA NORMA</option>
+            <option value="VILA NOVA CONCEICAO" >VILA NOVA CONCEICAO</option>
+            <option value="VILA NOVA CACHOEIRINHA" >VILA NOVA CACHOEIRINHA</option>
+            <option value="VILA NOVA CURUCA" >VILA NOVA CURUCA</option>
+            <option value="VILA NOVA MANCHESTER" >VILA NOVA MANCHESTER</option>
+            <option value="VILA NOVA MAZZEI" >VILA NOVA MAZZEI</option>
+            <option value="VILA NOVA YORK" >VILA NOVA YORK</option>
+            <option value="VILA ORATÓRIO" >VILA ORATÓRIO</option>
+            <option value="VILA PAIVA" >VILA PAIVA</option>
+            <option value="VILA PALMEIRAS" >VILA PALMEIRAS</option>
+            <option value="VILA PAULO SILAS" >VILA PAULO SILAS</option>
+            <option value="VILA PIERINA" >VILA PIERINA</option>
+            <option value="VILA PIRAJUSSARA" >VILA PIRAJUSSARA</option>
+            <option value="VILA POMPEIA" >VILA POMPEIA</option>
+            <option value="VILA PROGRESSO" >VILA PROGRESSO</option>
+            <option value="VILA PRUDENTE" >VILA PRUDENTE</option>
+            <option value="VILA QUILHERME" >VILA QUILHERME</option>
+            <option value="VILA RÉ" >VILA RÉ</option>
+            <option value="VILA REGENTE FEIJO" >VILA REGENTE FEIJO</option>
+            <option value="VILA RICA" >VILA RICA</option>
+            <option value="VILA RIO BRANCO" >VILA RIO BRANCO</option>
+            <option value="VILA RIO PEQUENO" >VILA RIO PEQUENO</option>
+            <option value="VILA ROMANA" >VILA ROMANA</option>
+            <option value="VILA SABRINA" >VILA SABRINA</option>
+            <option value="VILA SANTA EULALIA" >VILA SANTA EULALIA</option>
+            <option value="VILA SANTO ESTEFANO" >VILA SANTO ESTEFANO</option>
+            <option value="VILA SAO FRANCISCO" >VILA SAO FRANCISCO</option>
+            <option value="VILA SAO GERALDO" >VILA SAO GERALDO</option>
+            <option value="VILA SIMONE" >VILA SIMONE</option>
+            <option value="VILA SOCORRO" >VILA SOCORRO</option>
+            <option value="VILA SONIA" >VILA SONIA</option>
+            <option value="VILA TALARICO" >VILA TALARICO</option>
+            <option value="VILA UNIAO" >VILA UNIAO</option>
+            <option value="VILA VERA" >VILA VERA</option>
+            <option value="VILA VERDE" >VILA VERDE</option>
+            <option value="VILA VIDAL" >VILA VIDAL</option>
+            <option value="VILA ZELINA" >VILA ZELINA</option>
     </select>
     </div>
     <div class="form-group col-md-4">
       <label class="label-form-select" for="Bandeiraform">Selecione a bandeira:</label>
       <select class="form-control" name="Bandeiraform" id="Bandeiraform">
-        <option value="BRANCA" >BRANCA</option>
-        <option value="AGUA RASA" >AGUA RASA</option>
+        <option value="ALESAT" >ALESAT (ALE)</option>
+        <option value="BRANCA" >BANDEIRA BRANCA</option>
         <option value="IPIRANGA" >IPIRANGA</option>
         <option value="PETROBRAS DISTRIBUIDORA S.A." >PETROBRAS DISTRIBUIDORA S.A.</option>
+        <option value="TOTAL BRASIL" >TOTAL BRASIL.</option>
+        <option value="RAIZEN" >RAIZEN (SHELL)</option>
+        
     </select>
     </div>
     <div class="form-group col-md-4">
       <label class="label-form-select" for="Combustivelform">Selecione o produto:</label>
       <select class="form-control" name="Combustivelform" id="Combustivelform">
+                    <option value="DIESEL" >DIESEL</option>
+                    <option value="DIESELS10" >DIESEL S10</option>
                     <option value="ETANOL" >ETANOL</option>
                     <option value="GASOLINA" >GASOLINA</option>
       </select>
@@ -45,15 +323,20 @@
 
   <div class="form-group mt-5">
     <label class="label-input">Digite o nome do posto:</label>
-    <input type="text" id="nome" name="nome" class="form-control">
+    <input type="text" id="nome" name="nome" class="form-control" required>
+    <div class="invalid-feedback">
+        Este campo precisa ser preenchido.
+    </div>
   </div>
   <div class="form-group mt-5">
     <label class="label-input">Digite o preço:</label>
-    <input type="text" id="preco" name="preco" class="form-control">
+    <input type="text" id="preco" name="preco" class="form-control" required>
+    <div class="invalid-feedback">
+        Este campo precisa ser preenchido.
+    </div>
   </div>
     <button type="submit" class="btn btn-dark btn-custom">Cadastrar</button>
-</form>
-   
+</form>   
 <h3 class="text-center mt-5">{% block confirma %} Confirmar localização {% endblock %} </h3>
 <h3 class="text-center mt-2">{% block mapa %} (Colocar Mapa) {% endblock %} </h3>
 {% endblock %}
