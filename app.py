@@ -55,9 +55,16 @@ posto_dao = PostoDao(db)
 def index():
     return render_template('index.html', titulo='Buscador de preços de combustíveis')
 
+
 @app.route('/about')
 def about():
     return render_template('about.html', titulo='Sobre')
+
+
+# @app.route('/buscarPosto', methods=[])
+# def buscarPosto():
+#     lista = posto_dao.busca_por_bairro(request.form.get['bairroUsuario', False])
+#     return render_template('index.html', lista)
 
 
 @app.route('/create')
@@ -73,19 +80,15 @@ def listarPostos():
 
 @app.route('/cadastrarPreco', methods=['POST', ])
 def cadastrarPreco():
-    if 'teste' == request.form['nome']:
-        preco = request.form['preco']
-        produto = request.form['produto']
-        bairro = request.form['bairro']
-        nome = request.form['nome']
-        bandeira = request.form['bandeira']
-        posto = Posto(preco, produto, bairro, nome, bandeira)
-        posto_dao.salvar(posto)
-        flash(request.form['nome'] + ' cadastrado com sucesso!')
-        return redirect(url_for('listarPostos'))
-    else:
-        flash('Erro ao cadastrar preço, tente novamente mais tarde!')
-        return redirect(url_for('index'))
+    nome = request.form['nome']
+    preco = request.form['preco']
+    produto = request.form['Combustivelform']
+    bairro = request.form['Bairroform']
+    bandeira = request.form['Bandeiraform']
+    posto = Posto(preco, produto, bairro, nome, bandeira)
+    posto_dao.salvar(posto)
+    flash(request.form['nome'] + ' cadastrado com sucesso!')
+    return redirect(url_for('listarPostos'))
 
 
 #app.run()
