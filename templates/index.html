@@ -4,7 +4,7 @@
 
 {% extends "base.html" %}
 {% block content %}
-    <form class="needs-validation" id="search" novalidate>
+    <form class="needs-validation" action="{{ url_for('postosPorBairro') }}" method="post" id="search" novalidate>
         <fieldset>
             <div class="form-group mt-3">
             <label class="label-input" for="bairroUsuario">Digite o seu bairro: </label>

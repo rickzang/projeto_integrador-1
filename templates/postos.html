@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <table class="table table-striped table-bordered">
+        <thead class="thead-default">
+        <tr>
+            <th>Posto</th>
+            <th>Bairro</th>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Bandeira</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for posto in postos %}
+        <tr>
+            <td>{{ posto.nome }}</td>
+            <td>{{ posto.bairro }}</td>
+            <td>{{ posto.produto }}</td>
+            <td>{{ posto.preco }}</td>
+            <td>{{ posto.bandeira }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
