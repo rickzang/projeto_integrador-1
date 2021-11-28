@@ -41,7 +41,7 @@
                     <li class="nav-item nav-item--create">
                         <a class="nav-link" href="{{ url_for('novoPosto') }}">Cadastrar Preço</a>
                     </li>
-                    <li class="nav-item nav-item--create">
+                    <li class="nav-item nav-item--postobairro">
                         <a class="nav-link" href="{{ url_for('postosPorBairro') }}">Postos por bairro</a>
                     </li>
                 </ul>
@@ -92,6 +92,8 @@
                 $('.nav-item--create').addClass('active');
             } else if (path.match('about')) {
                 $('.nav-item--about').addClass('active');
+            } else if (path.match('postosPorBairro')) {
+                $('.nav-item--postobairro').addClass('active');
             } else {
                 $('.nav-item--index').addClass('active');
             }
