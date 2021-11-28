@@ -61,6 +61,14 @@ def about():
     return render_template('about.html', titulo='Sobre')
 
 
+@app.route('/postosPorBairro/', methods=['POST', ])
+def postosPorBairro():
+    posto = posto_dao.busca_por_bairro(request.form['bairroUsuario'])
+    if posto:
+        posto.bairro == request.form['bairroUsuario']
+    return render_template('postos.html', titulo='Postos por bairro')
+
+
 # @app.route('/buscarPosto', methods=[])
 # def buscarPosto():
 #     lista = posto_dao.busca_por_bairro(request.form.get['bairroUsuario', False])
