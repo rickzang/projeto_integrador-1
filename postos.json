@@ -1,0 +1,1283 @@
+[
+  {
+    "nome": "Posto de Serviços Lins Ltda",
+    "endereco": "Avenida Conselheirocarrao, 800",
+    "bairro": "Chacara California",
+    "lat": -23.540399551392,
+    "long": -46.55110168457
+  },
+  {
+    "nome": "Rede S-3",
+    "endereco": "Rua Pascoal Provensano, 52",
+    "bairro": "Chácara Califórnia",
+    "lat": -23.5365,
+    "long": -46.5548
+  },
+  {
+    "nome": "Auto Posto Bom Jesus de Pirapora Ltda",
+    "endereco": "Rua Moravia, 19",
+    "bairro": "Chacara Calofornia",
+    "lat": -23.598499298096,
+    "long": -46.504901885986
+  },
+  {
+    "nome": "Quinta Marcha Auto Posto Ltda",
+    "endereco": "Avenida Washington Luiz, 1171",
+    "bairro": "Chacara Flora",
+    "lat": -23.656600952148,
+    "long": -46.69469833374
+  },
+  {
+    "nome": "Centro Automotivo Giovanni G. Ltda",
+    "endereco": "Rua Calimaque, 62",
+    "bairro": "Chácara Itaim",
+    "lat": -23.58989906311,
+    "long": -46.681198120117
+  },
+  {
+    "nome": "Maragato",
+    "endereco": "Rua Joaquim Floriano, 563",
+    "bairro": "Chácara Itaim",
+    "lat": -23.584899902344,
+    "long": -46.675701141357
+  },
+  {
+    "nome": "Centro Automotivo Abel Ferreira Ltda Epp",
+    "endereco": "Avenida Vereador Abel Ferreira, 2694",
+    "bairro": "Chacara Mafalda",
+    "lat": -23.57200050354,
+    "long": -46.548999786377
+  },
+  {
+    "nome": "Atalaia",
+    "endereco": "Rua Barão de Cotegipe, 59",
+    "bairro": "Chácara Pouso Alegre",
+    "lat": -23.708000183105,
+    "long": -46.590099334717
+  },
+  {
+    "nome": "Auto Posto Cantinho",
+    "endereco": "Auto Posto Cantinh",
+    "bairro": "Auto Posto Cantinho",
+    "lat": -23.6859,
+    "long": -46.7913
+  },
+  {
+    "nome": "Posto Americo Brasiliense Ltda",
+    "endereco": "Rua Americo Brasiliense, 1219",
+    "bairro": "Chacara Santo Antonio",
+    "lat": -23.63330078125,
+    "long": -46.69889831543
+  },
+  {
+    "nome": "Fenix do Morumbi",
+    "endereco": "Av. Roque Petroni Júnior, 385",
+    "bairro": "Chacara Santo Antonio",
+    "lat": -23.625999450684,
+    "long": -46.690898895264
+  },
+  {
+    "nome": "Formula I Auto Posto",
+    "endereco": "Formula I Auto Post",
+    "bairro": "Formula I Auto Posto",
+    "lat": -23.6323,
+    "long": -46.7042
+  },
+  {
+    "nome": "Posto Aster",
+    "endereco": "R. Antônio De Barros, 2160",
+    "bairro": "Chácara Santo Antônio",
+    "lat": -23.549,
+    "long": -46.5548
+  },
+  {
+    "nome": "Auto Posto Andrade Rosa Ltda",
+    "endereco": "Rua Lopes da Costa, 1212",
+    "bairro": "Chacara Sao Joao",
+    "lat": -23.459100723267,
+    "long": -46.572101593018
+  },
+  {
+    "nome": "Posto City Lapa",
+    "endereco": "Posto City Lap",
+    "bairro": "Posto City Lapa",
+    "lat": -23.5273,
+    "long": -46.7245
+  },
+  {
+    "nome": "Tamurinha",
+    "endereco": "Avenida Aguia de Haia, 952",
+    "bairro": "Cidade A. E. Carvalho",
+    "lat": -23.537399291992,
+    "long": -46.475700378418
+  },
+  {
+    "nome": "Posto de Servicos Riolis Ltda",
+    "endereco": "Avenida Cupece, 3909",
+    "bairro": "Cidade Ademar",
+    "lat": -23.669799804688,
+    "long": -46.647998809814
+  },
+  {
+    "nome": "Auto Posto L.p.o. Ltda",
+    "endereco": "Avenida Cupece, 3696",
+    "bairro": "Cidade Ademar",
+    "lat": -23.668500900269,
+    "long": -46.651000976562
+  },
+  {
+    "nome": "Auto Posto Campania",
+    "endereco": "Auto Posto Campani",
+    "bairro": "Auto Posto Campania",
+    "lat": -23.6651,
+    "long": -46.6588
+  },
+  {
+    "nome": "Auto Posto Catania",
+    "endereco": "Avenida Cupece, 4360",
+    "bairro": "Cidade Ademar",
+    "lat": -23.672755,
+    "long": -46.6445605
+  },
+  {
+    "nome": "Auto Posto Mirante Ltda",
+    "endereco": "Avenida Miguel de Castro, 1210",
+    "bairro": "Cidade de Pirituba",
+    "lat": -23.475799560547,
+    "long": -46.719699859619
+  },
+  {
+    "nome": "Macaré Posto de Serviços Ltda",
+    "endereco": "Avenida Mateo Bei, 1789",
+    "bairro": "Cidade de São Mateus",
+    "lat": -23.598699569702,
+    "long": -46.485801696777
+  },
+  {
+    "nome": "Auto Posto Montemor Ltda",
+    "endereco": "Avenida Rodrigues Montemor, 280",
+    "bairro": "Cidade Domitila/jabaquara",
+    "lat": -23.666700363159,
+    "long": -46.652500152588
+  },
+  {
+    "nome": "Centro Automotivo C.h.m.r. Ltda",
+    "endereco": "Rua Jequirituba, 1180",
+    "bairro": "Cidade Dutra",
+    "lat": -23.731700897217,
+    "long": -46.688301086426
+  },
+  {
+    "nome": "Avatar Auto Posto Ltda",
+    "endereco": "Avenida Robert Kennedy, 6551",
+    "bairro": "Cidade Dutra",
+    "lat": -23.706800460815,
+    "long": -46.57559967041
+  },
+  {
+    "nome": "Auto Posto Kingston Limitada",
+    "endereco": "Avenida Teotonio Vilela, 2.465",
+    "bairro": "Cidade Dutra",
+    "lat": -23.722299575806,
+    "long": -46.697799682617
+  },
+  {
+    "nome": "Br Sul Auto Posto",
+    "endereco": "Avenida Senador Teotonio Vilela, 2631",
+    "bairro": "Cidade Dutra",
+    "lat": -23.723600387573,
+    "long": -46.698699951172
+  },
+  {
+    "nome": "Posto de Servicos Cidade Dutra",
+    "endereco": "Avenida Senador Teotonio Vilela, 1022",
+    "bairro": "Cidade Dutra",
+    "lat": -23.710199356079,
+    "long": -46.699501037598
+  },
+  {
+    "nome": "Toninho Trinta Auto Posto",
+    "endereco": "Toninho Trinta Auto Post",
+    "bairro": "Toninho Trinta Auto Posto",
+    "lat": -23.7057,
+    "long": -46.7021
+  },
+  {
+    "nome": "Posto Orion",
+    "endereco": "Av. Sen. Teotônio Vilela, 2631",
+    "bairro": "Cidade Dutra",
+    "lat": -23.724,
+    "long": -46.6988
+  },
+  {
+    "nome": "Posto de Serv Torrealba Ltda",
+    "endereco": "Avenida Lineu de Paula Machado, 1459",
+    "bairro": "Cidade Jardim",
+    "lat": -23.585300445557,
+    "long": -46.698398590088
+  },
+  {
+    "nome": "Posto Jd Europa",
+    "endereco": "Posto Jd Europ",
+    "bairro": "Posto Jd Europa",
+    "lat": -23.5797,
+    "long": -46.6827
+  },
+  {
+    "nome": "Posto Treze Cruz de Malta Ltda",
+    "endereco": "Avenida Cidade Jardim, 514",
+    "bairro": "Cidade Jardim",
+    "lat": -23.581800460815,
+    "long": -46.68510055542
+  },
+  {
+    "nome": "Auto Posto Grupo 23 Ltda",
+    "endereco": "Rua Thyrso Burgos Lopes, S/n Quadra 39,  Lote 28",
+    "bairro": "Cidade Kemel",
+    "lat": -23.505500793457,
+    "long": -46.366798400879
+  },
+  {
+    "nome": "Posto de Serviços Nova Lider Ltda",
+    "endereco": "Avenida Lider, 3400",
+    "bairro": "Cidade Lider",
+    "lat": -23.550800323486,
+    "long": -46.463199615479
+  },
+  {
+    "nome": "Auto Posto Ml Americano Ltda",
+    "endereco": "Avenida Maria Luiza Americano, 2801",
+    "bairro": "Cidade Lider",
+    "lat": -23.558098,
+    "long": -46.475548
+  },
+  {
+    "nome": "Auto Posto Itaquerão Ltda",
+    "endereco": "Avenida Lider, 2000 Esq C/ Av Maria Luiza Americano",
+    "bairro": "Cidade Lider",
+    "lat": -23.543199539185,
+    "long": -46.629199981689
+  },
+  {
+    "nome": "Auto Posto Itaquerão Ltda",
+    "endereco": "Avenida Lider, 2000",
+    "bairro": "Cidade Lider",
+    "lat": -23.556800842285,
+    "long": -46.476398468018
+  },
+  {
+    "nome": "Auto Posto Gagiju Ltda",
+    "endereco": "Avenida Lider, 2571",
+    "bairro": "Cidade Lider",
+    "lat": -23.556299209595,
+    "long": -46.469898223877
+  },
+  {
+    "nome": "Capri",
+    "endereco": "Avenida Lider, 1579",
+    "bairro": "Cidade Lider",
+    "lat": -23.555099487305,
+    "long": -46.479198455811
+  },
+  {
+    "nome": "Auto Posto Senaris Bello Ltda",
+    "endereco": "Avenida Engenheiro Luiz Carlos Berrini, 365",
+    "bairro": "Cidade Monções",
+    "lat": -23.599500656128,
+    "long": -46.690700531006
+  },
+  {
+    "nome": "Auto Posto Destk Ltda",
+    "endereco": "Avenida Jornalista Roberto Marinho, 4389",
+    "bairro": "Cidade Monções",
+    "lat": -23.635400772095,
+    "long": -46.66609954834
+  },
+  {
+    "nome": "Aleposto Guararapes",
+    "endereco": "Aleposto Guararape",
+    "bairro": "Aleposto Guararapes",
+    "lat": -23.6033,
+    "long": -46.6921
+  },
+  {
+    "nome": "Auto Posto Arizona",
+    "endereco": "Auto Posto Arizon",
+    "bairro": "Auto Posto Arizona",
+    "lat": -23.6106,
+    "long": -46.6948
+  },
+  {
+    "nome": "Auto Posto Savemo Shell Pre Pago",
+    "endereco": "Auto Posto Savemo Shell Pre Pag",
+    "bairro": "Auto Posto Savemo Shell Pre Pago",
+    "lat": -23.611,
+    "long": -46.6856
+  },
+  {
+    "nome": "Auto Posto Europa Garden Ltda",
+    "endereco": "Avenida Marechal Tito, 7059",
+    "bairro": "Cidade Nitro Operário",
+    "lat": -23.48690032959,
+    "long": -46.382499694824
+  },
+  {
+    "nome": "Extra Petro Auto Service Ltda",
+    "endereco": "Av. Cachoeira Paulista, 07",
+    "bairro": "Cidade Patriarca",
+    "lat": -23.529300689697,
+    "long": -46.504901885986
+  },
+  {
+    "nome": "Auto Posto Thais Com. e Serv. de Comb e Lubrif. Ltda",
+    "endereco": "Avenida Antonio Estevão de Carvalho, 28",
+    "bairro": "Cidade Patriarca",
+    "lat": -23.531900405884,
+    "long": -46.522598266602
+  },
+  {
+    "nome": "AUTO POSTO BONALUME LTDA.",
+    "endereco": "Avenida Cachoeira Paulista, 7",
+    "bairro": "Cidade Patriarca",
+    "lat": -23.529300689697,
+    "long": -46.504901885986
+  },
+  {
+    "nome": "Centro Automotivo Modena Ltda",
+    "endereco": "Avenida Antonio Estevão de Carvalho, 2804",
+    "bairro": "Cidade Patriarca",
+    "lat": -23.533000946045,
+    "long": -46.500900268555
+  },
+  {
+    "nome": "VENTO LESTE",
+    "endereco": "Avenida Antonio Estavao de Carvalho, 2804",
+    "bairro": "Cidade Patriarca",
+    "lat": -23.533000946045,
+    "long": -46.500900268555
+  },
+  {
+    "nome": "Auto Posto Batuta Ltda",
+    "endereco": "Avenida Mateo Bei, 323",
+    "bairro": "Cidade São Mateus",
+    "lat": -23.586500167847,
+    "long": -46.49100112915
+  },
+  {
+    "nome": "Posto Ipiranga",
+    "endereco": "Av. Mateo Bei, 323",
+    "bairro": "Cidade São Mateus",
+    "lat": -23.586200714111,
+    "long": -46.49100112915
+  },
+  {
+    "nome": "Unipo",
+    "endereco": "Avenida Satelite, 713",
+    "bairro": "Cidade Satelite",
+    "lat": -23.610799789429,
+    "long": -46.465099334717
+  },
+  {
+    "nome": "Posto Comprebem",
+    "endereco": "Avenida Souza Ramos, 24",
+    "bairro": "Cidade Tiradentes",
+    "lat": -23.564500808716,
+    "long": -46.413299560547
+  },
+  {
+    "nome": "Auto Posto Cidade Vargas Ltda",
+    "endereco": "Auto Posto Cidade Vargas Ltd",
+    "bairro": "Auto Posto Cidade Vargas Ltda",
+    "lat": -23.647100448608,
+    "long": -46.637500762939
+  },
+  {
+    "nome": "Comercio Varejista de Combustiveis Lumar Taipas Ltda",
+    "endereco": "Avenida Raimundo Pereira de Magalhaes, 11823",
+    "bairro": "City Jaragua",
+    "lat": -23.439100265503,
+    "long": -46.721500396729
+  },
+  {
+    "nome": "Com Varejista de Comb Lumar Taipas Ltda",
+    "endereco": "Com Varejista de Comb Lumar Taipas Ltd",
+    "bairro": "Com Varejista de Comb Lumar Taipas Ltda",
+    "lat": -23.4383,
+    "long": -46.7214
+  },
+  {
+    "nome": "Auto Posto Virginia Ferni Ltda",
+    "endereco": "Rua Virginia Ferni, 200",
+    "bairro": "Cohab J.bonifacio",
+    "lat": -23.5478325,
+    "long": -46.4386787
+  },
+  {
+    "nome": "Auto Posto Aurora Ii Ltda",
+    "endereco": "Estrada do Pessego, 250",
+    "bairro": "Colônia",
+    "lat": -23.559999465942,
+    "long": -46.44580078125
+  },
+  {
+    "nome": "Auto Posto Colonia",
+    "endereco": "Rua Carlos Rasquinho, Sn",
+    "bairro": "Colonia Paulista",
+    "lat": -21.91130065918,
+    "long": -49.365299224854
+  },
+  {
+    "nome": "A. P. Center Leste Ltda",
+    "endereco": "Rua Cesar Diaz,   Quadra 10",
+    "bairro": "Conjunto José Anchieta",
+    "lat": -23.551000595093,
+    "long": -46.480400085449
+  },
+  {
+    "nome": "Auto Posto Center Leste Ltda",
+    "endereco": "Rua Cesar Diaz, S/n Lote 01, Quadra 10",
+    "bairro": "Conjunto José Anchieta",
+    "lat": -23.550699234009,
+    "long": -46.481098175049
+  },
+  {
+    "nome": "Auto Posto Bela Cintra Ltda",
+    "endereco": "Rua Fernando de Albuquerque, 216",
+    "bairro": "Consolação",
+    "lat": -23.553300857544,
+    "long": -46.658401489258
+  },
+  {
+    "nome": "Auto Posto Duque Centro Ltda",
+    "endereco": "Rua Marques de Paranagua, 21",
+    "bairro": "Consolação",
+    "lat": -23.548500061035,
+    "long": -46.650501251221
+  },
+  {
+    "nome": "Posto 15 Lavabem Ltda",
+    "endereco": "Rua Marquês de Paranaguá, 21",
+    "bairro": "Consolação",
+    "lat": -23.662799835205,
+    "long": -46.860900878906
+  },
+  {
+    "nome": "Posto Belas Artes Ltda",
+    "endereco": "Rua da Consolação, 2367",
+    "bairro": "Consolação",
+    "lat": -23.554500579834,
+    "long": -46.661499023438
+  },
+  {
+    "nome": "Auto Posto  Azzolini Ltda",
+    "endereco": "Rua da Consolação, 424",
+    "bairro": "Consolação",
+    "lat": -23.547300338745,
+    "long": -46.645401000977
+  },
+  {
+    "nome": "Auto Posto Caio Prado Ltda",
+    "endereco": "Rua Augusta, 180",
+    "bairro": "Consolação",
+    "lat": -23.550500869751,
+    "long": -46.647899627686
+  },
+  {
+    "nome": "Auto Posto Consolação Ltda",
+    "endereco": "Rua da Consolação, 1398 1414",
+    "bairro": "Consolação",
+    "lat": -23.550100326538,
+    "long": -46.654598236084
+  },
+  {
+    "nome": "Miracatu Auto Posto",
+    "endereco": "Miracatu Auto Post",
+    "bairro": "Miracatu Auto Posto",
+    "lat": -23.554,
+    "long": -46.6592
+  },
+  {
+    "nome": "Posto da Skina",
+    "endereco": "Posto da Skin",
+    "bairro": "Posto da Skina",
+    "lat": -23.56130027771,
+    "long": -46.668899536133
+  },
+  {
+    "nome": "Posto Flor de Goias",
+    "endereco": "R. Augusta, 1097",
+    "bairro": "Consolação",
+    "lat": -23.5541,
+    "long": -46.6559
+  },
+  {
+    "nome": "Posto Noninha Ltda Epp",
+    "endereco": "Posto Noninha Ltda Ep",
+    "bairro": "Posto Noninha Ltda Epp",
+    "lat": -23.5494,
+    "long": -46.6484
+  },
+  {
+    "nome": "Auto Posto Bellagio Ltda",
+    "endereco": "Avenida Inajar de Souza, 3550",
+    "bairro": "do Limao",
+    "lat": -23.483999252319,
+    "long": -46.67919921875
+  },
+  {
+    "nome": "Posto de Serviços Gopecar Ltda",
+    "endereco": "Avenida Engenheiro Caetano Alvares, 983",
+    "bairro": "do Limao",
+    "lat": -23.506000518799,
+    "long": -46.669498443604
+  },
+  {
+    "nome": "Posto de Serviço Ecologico Ltda",
+    "endereco": "Avenida Doutor  Assis Ribeiro, 4267",
+    "bairro": "Eng. Goulart",
+    "lat": -23.496999740601,
+    "long": -46.516101837158
+  },
+  {
+    "nome": "Posto Janiopolis",
+    "endereco": "Posto Janiopoli",
+    "bairro": "Posto Janiopolis",
+    "lat": -23.5002,
+    "long": -46.5265
+  },
+  {
+    "nome": "Bandeira Rocha",
+    "endereco": "Avenida Paranagua, 2122",
+    "bairro": "Ermelindo Matarazzo",
+    "lat": -23.485900878906,
+    "long": -46.480098724365
+  },
+  {
+    "nome": "Morada do Sol Comercio de Lubrificantes Ii Ltda",
+    "endereco": "Avenida Aguia de Haia, 3605",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.514600753784,
+    "long": -46.47679901123
+  },
+  {
+    "nome": "Auto Posto Sam Sam Ltda",
+    "endereco": "Avenida Sao Miguel, 5605",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.507299423218,
+    "long": -46.479499816895
+  },
+  {
+    "nome": "Auto Posto Giza",
+    "endereco": "Avenida Sao Miguel, 5891",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.5061,
+    "long": -46.4768
+  },
+  {
+    "nome": "Auto Posto Rio Coa Ltda",
+    "endereco": "Rua Rodeiro, 102",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.488800048828,
+    "long": -46.465301513672
+  },
+  {
+    "nome": "Buturussu",
+    "endereco": "Avenida Boturussu, 1029",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.497900009155,
+    "long": -46.486698150635
+  },
+  {
+    "nome": "Cuca Legal Auto Servicos Shell Pre Pago",
+    "endereco": "Cuca Legal Auto Servicos Shell Pre Pag",
+    "bairro": "Cuca Legal Auto Servicos Shell Pre Pago",
+    "lat": -23.5035,
+    "long": -46.4881
+  },
+  {
+    "nome": "Escuna Auto Posto Ltda",
+    "endereco": "Avenida Sao Miguel, 5300",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.507200241089,
+    "long": -46.481800079346
+  },
+  {
+    "nome": "Morada do Sol",
+    "endereco": "Avenida Aguia de Haia, 3605",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.513900756836,
+    "long": -46.476898193359
+  },
+  {
+    "nome": "Posto de Serviço Bandeira Ltda",
+    "endereco": "Estrada de Sao Miguel, 3771",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.509399414062,
+    "long": -46.496799468994
+  },
+  {
+    "nome": "Posto Monte Santo",
+    "endereco": "Posto Monte Sant",
+    "bairro": "Posto Monte Santo",
+    "lat": -23.5056,
+    "long": -46.4751
+  },
+  {
+    "nome": "POTO JUREMA",
+    "endereco": "Avenida Doutor Assis Ribeiro, 540",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.50950050354,
+    "long": -46.546001434326
+  },
+  {
+    "nome": "Auto Posto Rio COA",
+    "endereco": "R. Rodeiro, 102",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.4887,
+    "long": -46.465
+  },
+  {
+    "nome": "Posto Petrobrás",
+    "endereco": "Av. Dr. Assis Ribeiro,9485",
+    "bairro": "Ermelino Matarazzo",
+    "lat": -23.4835,
+    "long": -46.4689
+  },
+  {
+    "nome": "Rede M2",
+    "endereco": "Av. Adriano Bertozzi, 246",
+    "bairro": "Fazenda Caguaçu",
+    "lat": -23.569799423218,
+    "long": -46.449001312256
+  },
+  {
+    "nome": "Auto Posto Cidade Tiradentes",
+    "endereco": "Rua Marcio Bek Machado, 111",
+    "bairro": "Fazenda Santa Etelvina",
+    "lat": -23.5809096,
+    "long": -46.4142813
+  },
+  {
+    "nome": "Auto Posto Cidade Tiradentes",
+    "endereco": "Rua Marcio Bek Machado, S/n",
+    "bairro": "Fazenda Santa Etelvina",
+    "lat": -23.580299377441,
+    "long": -46.413299560547
+  },
+  {
+    "nome": "Auto Posto Moinho Velho Shell Pre Pago",
+    "endereco": "Auto Posto Moinho Velho Shell Pre Pag",
+    "bairro": "Auto Posto Moinho Velho Shell Pre Pago",
+    "lat": -23.5961,
+    "long": -46.7458
+  },
+  {
+    "nome": "Bg Sul Petroleo Ltda",
+    "endereco": "Avenida Professor Francisco Morato, 5051",
+    "bairro": "Ferreira",
+    "lat": -23.599700927734,
+    "long": -46.741901397705
+  },
+  {
+    "nome": "Auto Posto Vitrola Ltda",
+    "endereco": "Avenida Inajar de Souza, 93",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.503999710083,
+    "long": -46.688701629639
+  },
+  {
+    "nome": "Anielo D Amaro Cia Ltda",
+    "endereco": "Avenida Joao Paulo I, 900",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.487300872803,
+    "long": -46.687698364258
+  },
+  {
+    "nome": "Auto Posto Pé Vermelho Ltda",
+    "endereco": "Rua Tenente Coronel José Joaquim Correia Arruda, 545",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.479099273682,
+    "long": -46.693599700928
+  },
+  {
+    "nome": "Auto Posto Novo Morro Grande Ltda",
+    "endereco": "Avenida Miguel Conejo, 1051",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.494400024414,
+    "long": -46.692100524902
+  },
+  {
+    "nome": "Posto de Serviços Patota Ltda",
+    "endereco": "Avenida Itaberaba, 1492",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.48929977417,
+    "long": -46.694198608398
+  },
+  {
+    "nome": "Auto Posto Reira Ltda",
+    "endereco": "Avenida Inajar de Souza, 455",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.502000808716,
+    "long": -46.6875
+  },
+  {
+    "nome": "Auto Posto Boturuçu",
+    "endereco": "Avenida Itaberaba, 3074",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.481700897217,
+    "long": -46.683700561523
+  },
+  {
+    "nome": "Auto Posto Green",
+    "endereco": "Avenida Joao Paulo I, 370",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.490299224854,
+    "long": -46.688598632812
+  },
+  {
+    "nome": "Auto Posto Marini",
+    "endereco": "Auto Posto Marin",
+    "bairro": "Auto Posto Marini",
+    "lat": -23.5016,
+    "long": -46.6869
+  },
+  {
+    "nome": "Auto Posto Monjolo",
+    "endereco": "Auto Posto Monjol",
+    "bairro": "Auto Posto Monjolo",
+    "lat": -23.4926,
+    "long": -46.7003
+  },
+  {
+    "nome": "Bridge Servicos Automotivos Shell Pre Pago",
+    "endereco": "Bridge Servicos Automotivos Shell Pre Pag",
+    "bairro": "Bridge Servicos Automotivos Shell Pre Pago",
+    "lat": -23.5046,
+    "long": -46.6884
+  },
+  {
+    "nome": "Lazaro de Abreu Posto",
+    "endereco": "Rua Parapua, 481",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.480199813843,
+    "long": -46.691600799561
+  },
+  {
+    "nome": "Novo Morro Grande",
+    "endereco": "Avenida Miguel Conejo, 1051",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.497999191284,
+    "long": -46.693199157715
+  },
+  {
+    "nome": "Posto Armandinho",
+    "endereco": "Avenida Paula Ferreira, 2539",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.489799499512,
+    "long": -46.716499328613
+  },
+  {
+    "nome": "Posto Cavallar",
+    "endereco": "Posto Cavalla",
+    "bairro": "Posto Cavallar",
+    "lat": -23.5041,
+    "long": -46.6838
+  },
+  {
+    "nome": "Posto de Serviços Automotivos do Pequeno Ltda",
+    "endereco": "Avenida Elisio Teixeira Leite, 7308 7308 A, 7308 B, 7253",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.441299438477,
+    "long": -46.716899871826
+  },
+  {
+    "nome": "Posto de Servicos da Ponte",
+    "endereco": "Posto de Servicos da Pont",
+    "bairro": "Posto de Servicos da Ponte",
+    "lat": -23.5048,
+    "long": -46.6894
+  },
+  {
+    "nome": "Posto Rede Papa",
+    "endereco": "Av. Inajar de Souza, 40",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.504899978638,
+    "long": -46.688301086426
+  },
+  {
+    "nome": "Posto Vitrola Ii",
+    "endereco": "Avenida Inajar de Souza, 93",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.504299163818,
+    "long": -46.688598632812
+  },
+  {
+    "nome": "Posto-2723-freguesia",
+    "endereco": "Posto",
+    "bairro": "2723-freguesia",
+    "lat": -23.5051,
+    "long": -46.6898
+  },
+  {
+    "nome": "Rede Atlas",
+    "endereco": "Avenida Itaberaba, 1802",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.486700057983,
+    "long": -46.692699432373
+  },
+  {
+    "nome": "Rede Papa 10 Shell Pre Pago",
+    "endereco": "Rede Papa 10 Shell Pre Pag",
+    "bairro": "Rede Papa 10 Shell Pre Pago",
+    "lat": -23.5089,
+    "long": -46.6851
+  },
+  {
+    "nome": "Posto Shell",
+    "endereco": "Av. Inajar de Souza, 450",
+    "bairro": "Freguesia do Ó",
+    "lat": -23.501,
+    "long": -46.6872
+  },
+  {
+    "nome": "Centro Automotivo Petrõnio Portela Ltda. Me",
+    "endereco": "Rua Professor João Machado, 684",
+    "bairro": "Frequesia do Ó",
+    "lat": -23.49760055542,
+    "long": -46.705200195312
+  },
+  {
+    "nome": "Auto Posto Força Maior Ltda",
+    "endereco": "Avenida Deputado Emilio Carlos, 1536",
+    "bairro": "Frguesia do o",
+    "lat": -23.492399215698,
+    "long": -46.677898406982
+  },
+  {
+    "nome": "Auto Posto Jemina",
+    "endereco": "Av. Dona Belmira Marin, 4045",
+    "bairro": "Grajau",
+    "lat": -23.7549,
+    "long": -46.6775
+  },
+  {
+    "nome": "Comercio Varejista de Combustiveis Pinho do Grajau Ltda",
+    "endereco": "Avenida Belmira Marin, 2350",
+    "bairro": "Grajau",
+    "lat": -23.7500595,
+    "long": -46.6880682
+  },
+  {
+    "nome": "Posto-2627-ex.guaianases",
+    "endereco": "Posto",
+    "bairro": "2627-ex.guaianases",
+    "lat": -23.5421,
+    "long": -46.4241
+  },
+  {
+    "nome": "Centro Automotivo Nova Guaianazes Ltda",
+    "endereco": "Av. Nordestina, 6455",
+    "bairro": "Guaianazes",
+    "lat": -23.532800674438,
+    "long": -46.41609954834
+  },
+  {
+    "nome": "Auto Posto de Servicos El Shadai Ltda",
+    "endereco": "Rua Luiz Mateus, 516",
+    "bairro": "Guaianazes",
+    "lat": -23.546899795532,
+    "long": -46.426399230957
+  },
+  {
+    "nome": "Salgueiro Serviços Automotivos Ltda. Epp",
+    "endereco": "Avenida Nordestina, 6455",
+    "bairro": "Guaianazes",
+    "lat": -23.532800674438,
+    "long": -46.41609954834
+  },
+  {
+    "nome": "Posto Jd Helena com de Derivados de Petroleo Ltda",
+    "endereco": "Estrada de Itaquera",
+    "bairro": "guaianazes, 2392 N/t - Guaianazes",
+    "lat": -23.5412191,
+    "long": -46.4258451
+  },
+  {
+    "nome": "Auto Posto Girao Ltda",
+    "endereco": "Estrada Dom Joao Nery, 4.123",
+    "bairro": "Guaianazes",
+    "lat": -23.5287961,
+    "long": -46.3967639
+  },
+  {
+    "nome": "Posto de Servicos Saturnino Ltda",
+    "endereco": "Avenida Saturnino Pereira, 753",
+    "bairro": "Guaianazes",
+    "lat": -23.605400085449,
+    "long": -46.40650177002
+  },
+  {
+    "nome": "A P JAMIL LTDA",
+    "endereco": "Rua Jose Vieira Guimaraes, 29",
+    "bairro": "Guaianazes",
+    "lat": -23.523899078369,
+    "long": -46.429901123047
+  },
+  {
+    "nome": "Auto Posto Cadima",
+    "endereco": "Estrada do Lageado Velho, 1499",
+    "bairro": "Guaianazes",
+    "lat": -23.533500671387,
+    "long": -46.396301269531
+  },
+  {
+    "nome": "Auto Posto Girao",
+    "endereco": "Estrada Dom Joao Nery, 4123",
+    "bairro": "Guaianazes",
+    "lat": -23.516500473022,
+    "long": -46.402599334717
+  },
+  {
+    "nome": "Auto Posto Lince",
+    "endereco": "Auto Posto Linc",
+    "bairro": "Auto Posto Lince",
+    "lat": -23.5558,
+    "long": -46.4113
+  },
+  {
+    "nome": "Auto Posto Vila Rosa",
+    "endereco": "Rua Miguel Achioli da Fonseca, 1420",
+    "bairro": "Guaianazes",
+    "lat": -23.5590768,
+    "long": -46.4034552
+  },
+  {
+    "nome": "CENTRO AUTOMOTIVO TRANCOSO LTDA.",
+    "endereco": "Rua Luis Mateus, 516",
+    "bairro": "Guaianazes",
+    "lat": -23.546899795532,
+    "long": -46.426399230957
+  },
+  {
+    "nome": "Naza Auto Posto",
+    "endereco": "Estrada do Lageado Velho, 38",
+    "bairro": "Guaianazes",
+    "lat": -23.538999557495,
+    "long": -46.407901763916
+  },
+  {
+    "nome": "Rede Cristal",
+    "endereco": "Avenida Ragueb Chohfi, 7850",
+    "bairro": "Guaianazes",
+    "lat": -23.594800949097,
+    "long": -46.445201873779
+  },
+  {
+    "nome": "Rede Martha",
+    "endereco": "Rua Salvador Gianetti, 118",
+    "bairro": "Guaianazes",
+    "lat": -23.543300628662,
+    "long": -46.420799255371
+  },
+  {
+    "nome": "Auto Posto Marak Ltda",
+    "endereco": "Rua Salvador Gianetti, 920 B",
+    "bairro": "Guainazes",
+    "lat": -23.542699813843,
+    "long": -46.415699005127
+  },
+  {
+    "nome": "Parque Europa - Comercio Varejista de Combustiveis Ltda",
+    "endereco": "Estrada do Guarapiranga, 2229",
+    "bairro": "Guarapiranga",
+    "lat": -23.685800552368,
+    "long": -46.739898681641
+  },
+  {
+    "nome": "Auto Posto Silguekron",
+    "endereco": "Auto Posto Silguekro",
+    "bairro": "Auto Posto Silguekron",
+    "lat": -23.6674,
+    "long": -46.7288
+  },
+  {
+    "nome": "Guarapiranga",
+    "endereco": "Estrada de Guarapiranga, 586",
+    "bairro": "Guarapiranga",
+    "lat": -23.666200637817,
+    "long": -46.717800140381
+  },
+  {
+    "nome": "a P Racar Ltda",
+    "endereco": "Avenida Carlos Ferreira Endres, 860",
+    "bairro": "Guarulhos 3",
+    "lat": -23.48509979248,
+    "long": -46.553100585938
+  },
+  {
+    "nome": "Auto Posto Hygienópolis Ltda",
+    "endereco": "Avenida Angélica, 1322",
+    "bairro": "Higienópolis",
+    "lat": -23.544399261475,
+    "long": -46.65710067749
+  },
+  {
+    "nome": "Centro Automotivo Orgulho",
+    "endereco": "Centro Automotivo Orgulh",
+    "bairro": "Centro Automotivo Orgulho",
+    "lat": -23.5445,
+    "long": -46.6625
+  },
+  {
+    "nome": "Itambe Auto Posto Ltda",
+    "endereco": "Itambe Auto Posto Ltd",
+    "bairro": "Itambe Auto Posto Ltda",
+    "lat": -23.5478,
+    "long": -46.6547
+  },
+  {
+    "nome": "Portal do Horto",
+    "endereco": "Rua Rosalvo Ribeiro, 260",
+    "bairro": "Horto Florestal",
+    "lat": -23.461999893188,
+    "long": -46.629398345947
+  },
+  {
+    "nome": "Posto Ecologico do Horto Ltda",
+    "endereco": "Rua Luis Carlos Gentile de Laet, 100",
+    "bairro": "Horto Florestal",
+    "lat": -23.466400146484,
+    "long": -46.630298614502
+  },
+  {
+    "nome": "Posto Br",
+    "endereco": "Av. 11 de Junho, 1519",
+    "bairro": "Ibirapuera",
+    "lat": -23.6015,
+    "long": -46.6516
+  },
+  {
+    "nome": "Indianopolis M B",
+    "endereco": "Indianopolis M",
+    "bairro": "Indianopolis M B",
+    "lat": -23.6018,
+    "long": -46.6565
+  },
+  {
+    "nome": "Posto de Servico Iramaia Morumb",
+    "endereco": "Posto de Servico Iramaia Morum",
+    "bairro": "Posto de Servico Iramaia Morumb",
+    "lat": -23.6234,
+    "long": -46.6961
+  },
+  {
+    "nome": "Tosca Auto Posto Ltda",
+    "endereco": "Avenida Imirim, 2576",
+    "bairro": "Imirim",
+    "lat": -23.484399795532,
+    "long": -46.653198242188
+  },
+  {
+    "nome": "Auto Posto Garoto do Imirim Ltda",
+    "endereco": "Avenida Imirim, 4070",
+    "bairro": "Imirim",
+    "lat": -23.476800918579,
+    "long": -46.662899017334
+  },
+  {
+    "nome": "Auto Posto Casella",
+    "endereco": "Auto Posto Casell",
+    "bairro": "Auto Posto Casella",
+    "lat": -23.4799,
+    "long": -46.6567
+  },
+  {
+    "nome": "Auto Posto Maran Ltda",
+    "endereco": "Avenida Engenheiro Caetano Alvares, 3736",
+    "bairro": "Imirim",
+    "lat": -23.488800048828,
+    "long": -46.653099060059
+  },
+  {
+    "nome": "Auto Posto Maricar",
+    "endereco": "Auto Posto Marica",
+    "bairro": "Auto Posto Maricar",
+    "lat": -23.4813,
+    "long": -46.6557
+  },
+  {
+    "nome": "Jardim Norte Posto de Serviços & Conveniências Ltda",
+    "endereco": "Rua Padre João Gualberto, 701",
+    "bairro": "Imirim",
+    "lat": -23.49049949646,
+    "long": -46.654598236084
+  },
+  {
+    "nome": "Largo do Japones",
+    "endereco": "Avenida Imirim, 4676",
+    "bairro": "Imirim",
+    "lat": -23.474100112915,
+    "long": -46.667400360107
+  },
+  {
+    "nome": "Posto Clima",
+    "endereco": "Avenida Imirim, 562",
+    "bairro": "Imirim",
+    "lat": -23.498100280762,
+    "long": -46.6416015625
+  },
+  {
+    "nome": "Posto Sao Lucas",
+    "endereco": "Avenida Imirim, 3269",
+    "bairro": "Imirim",
+    "lat": -23.479900360107,
+    "long": -46.657901763916
+  },
+  {
+    "nome": "Posto Vida",
+    "endereco": "Posto Vid",
+    "bairro": "Posto Vida",
+    "lat": -23.4959,
+    "long": -46.644
+  },
+  {
+    "nome": "Posto Shell - Mister Plus Autom E Conv Ltda",
+    "endereco": "Av. Santo Amaro, 2395",
+    "bairro": "Indianópolis",
+    "lat": -23.6054,
+    "long": -46.6752
+  },
+  {
+    "nome": "Lavandisca Auto Posto Ltda",
+    "endereco": "Alameda Jauaperi, 571",
+    "bairro": "Indianópolis",
+    "lat": -23.602600097656,
+    "long": -46.665000915527
+  },
+  {
+    "nome": "Central Auto Posto Ltda",
+    "endereco": "Avenida Moreira Guimaraes, 1183 Antiga Av. Ruben Berta 1221",
+    "bairro": "Indianópolis",
+    "lat": -23.6077282,
+    "long": -46.6531526
+  },
+  {
+    "nome": "Grupo Mercantil de Petróleo Ltda",
+    "endereco": "Alameda Jauaperi, 1383",
+    "bairro": "Indianópolis",
+    "lat": -23.607799530029,
+    "long": -46.669898986816
+  },
+  {
+    "nome": "Auto Posto Genesis J.a. Ltda",
+    "endereco": "Avenida dos Imares, 716",
+    "bairro": "Indianópolis",
+    "lat": -23.6147866,
+    "long": -46.6635492
+  },
+  {
+    "nome": "Centro Automotivo Nhambiquaras  Ltda",
+    "endereco": "Alameda do Nhambiquaras, 1555",
+    "bairro": "Indianópolis",
+    "lat": -23.611499786377,
+    "long": -46.663398742676
+  },
+  {
+    "nome": "Auto Posto Pirai Ltda",
+    "endereco": "Avenida Irai, 27",
+    "bairro": "Indianópolis",
+    "lat": -23.608100891113,
+    "long": -46.666301727295
+  },
+  {
+    "nome": "Auto Posto Jurupis Eireli",
+    "endereco": "Alameda dos Jurupis, 1299",
+    "bairro": "Indianópolis",
+    "lat": -23.609399795532,
+    "long": -46.664501190186
+  },
+  {
+    "nome": "Auto Posto Casa Grande Ltda",
+    "endereco": "Avenida Iraí, 1080",
+    "bairro": "Indianópolis",
+    "lat": -23.614200592041,
+    "long": -46.658599853516
+  },
+  {
+    "nome": "Auto Posto Jurema",
+    "endereco": "Auto Posto Jurem",
+    "bairro": "Auto Posto Jurema",
+    "lat": -23.6114,
+    "long": -46.6553
+  },
+  {
+    "nome": "Auto Posto Mara Miru",
+    "endereco": "Auto Posto Mara Mir",
+    "bairro": "Auto Posto Mara Miru",
+    "lat": -23.6121,
+    "long": -46.6656
+  },
+  {
+    "nome": "Posto Aplauso",
+    "endereco": "Posto Aplaus",
+    "bairro": "Posto Aplauso",
+    "lat": -23.6136,
+    "long": -46.6579
+  },
+  {
+    "nome": "Posto Bola Pesada Ltda",
+    "endereco": "Avenida Jandira, 1010",
+    "bairro": "Indianópolis",
+    "lat": -23.611600875854,
+    "long": -46.656600952148
+  },
+  {
+    "nome": "Posto de Servicos Imares",
+    "endereco": "Posto de Servicos Imare",
+    "bairro": "Posto de Servicos Imares",
+    "lat": -23.6124,
+    "long": -46.666
+  },
+  {
+    "nome": "Posto de Servicos Monte Carlo",
+    "endereco": "Posto de Servicos Monte Carl",
+    "bairro": "Posto de Servicos Monte Carlo",
+    "lat": -23.6101,
+    "long": -46.6638
+  },
+  {
+    "nome": "Posto Indianopolis",
+    "endereco": "Posto Indianopoli",
+    "bairro": "Posto Indianopolis",
+    "lat": -23.6066,
+    "long": -46.6531
+  },
+  {
+    "nome": "Posto Juruce",
+    "endereco": "Posto Juruc",
+    "bairro": "Posto Juruce",
+    "lat": -23.6131,
+    "long": -46.6578
+  },
+  {
+    "nome": "Posto Ortega",
+    "endereco": "Posto Orteg",
+    "bairro": "Posto Ortega",
+    "lat": -23.605,
+    "long": -46.6705
+  },
+  {
+    "nome": "Posto Juruce - Shell",
+    "endereco": "Av. Moreira Guimarães, 690",
+    "bairro": "Indianópolis",
+    "lat": -23.6126,
+    "long": -46.6577
+  },
+  {
+    "nome": "Posto BR",
+    "endereco": "R. Canário, 1186",
+    "bairro": "Indianópolis",
+    "lat": -23.6049,
+    "long": -46.6706
+  }
+]
