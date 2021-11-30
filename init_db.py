@@ -19,7 +19,7 @@ conn.commit()
 
 criar_tabelas = '''SET NAMES utf8;
     USE {db};
-    CREATE TABLE `POSTO` (
+    CREATE TABLE `posto` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
       `preco` float(11) NOT NULL,
       `produto` varchar(20) NOT NULL,
@@ -35,7 +35,7 @@ conn.cursor().execute(criar_tabelas)
 # inserindo POSTOS
 cursor = conn.cursor()
 cursor.executemany(
-      'INSERT INTO POSTO (preco, produto, endereco, bairro, nome, bandeira) VALUES (%s, %s, %s, %s, %s, %s)',
+      'INSERT INTO posto (preco, produto, endereco, bairro, nome, bandeira) VALUES (%s, %s, %s, %s, %s, %s)',
       [
             (5.9, 'GASOLINA', 'AVENIDA VITAL BRASIL, 911', 'BUTANTA', 'POSTO UNIVERSIDADE EIRELI', 'IPIRANGA'),
             (5.3, 'ETANOL', 'AVENIDA NOVE DE JULHO, 3062', 'JARDIM PAULISTA', 'AUTO POSTO JOSE MARIA LISBOA LTDA', 'PETROBRAS DISTRIBUIDORA S.A.'),

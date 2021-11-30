@@ -1,11 +1,11 @@
 from models import Posto
 
 SQL_DELETA_POSTO = 'delete from posto where id = %s'
-SQL_POSTO_POR_ID = 'SELECT id, preco, produto, endereco, bairro, nome, bandeira from posto where id = %s'
+SQL_POSTO_POR_ID = 'SELECT id, preco, produto, endereco, bairro, nome, bandeira FROM posto where id = %s'
 SQL_ATUALIZA_POSTO = 'UPDATE posto SET preco=%s, produto=%s, endereco=%s, bairro=%s, nome=%s, bandeira=%s where id = %s'
-SQL_BUSCA_POSTOS = 'SELECT id, preco, produto, endereco, bairro, nome, bandeira from posto'
+SQL_BUSCA_POSTOS = 'SELECT id, preco, produto, endereco, bairro, nome, bandeira FROM posto'
 SQL_CRIA_POSTO = 'INSERT INTO posto (preco, produto, endereco, bairro, nome, bandeira) values (%s, %s, %s, %s, %s, %s)'
-SQL_BUSCA_POSTO_PELO_BAIRRO = 'SELECT preco, produto, endereco, bairro, nome, bandeira FROM posto WHERE bairro = %s'
+SQL_BUSCA_POSTO_PELO_BAIRRO = 'SELECT id, preco, produto, endereco, bairro, nome, bandeira FROM posto WHERE UPPER(bairro) LIKE %s'
 
 
 class PostoDao:
@@ -37,15 +37,15 @@ class PostoDao:
 
     def busca_por_bairro(self, bairro):
         cursor = self.__db.connection.cursor()
-        cursor.execute(SQL_BUSCA_POSTO_PELO_BAIRRO, (bairro,))
-        data = cursor.fetchone()
-        if data:
-            print("teeeem!" + bairro)
-        else:
-            print("não tem bairrooo!")
+        cursor.execute(SQL_BUSCA_POSTO_PELO_BAIRRO, ('%'+bairro.upper()+'%',))
+        # data = cursor.fetchone()
+        # if data:
+        #     print("teeeem!" + bairro)
+        # else:
+        #     print("não tem bairrooo!")
         #return bairro
-        #postos_por_bairro = traduz_postos_por_bairro(cursor.fetchall())
-        #return postos_por_bairro
+        postos = traduz_postos(cursor.fetchall())
+        return postos
 
     #def listar_por_bairro(self):
     #    cursor = self.__db.connection.cursor()
