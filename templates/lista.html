@@ -4,6 +4,7 @@
         <thead class="thead-default">
         <tr>
             <th>Posto</th>
+            <th>Endereço</th>
             <th>Bairro</th>
             <th>Produto</th>
             <th>Preço</th>
@@ -14,6 +15,7 @@
         {% for posto in postos %}
         <tr>
             <td>{{ posto.nome }}</td>
+            <td>{{ posto.endereco }}</td>
             <td>{{ posto.bairro }}</td>
             <td>{{ posto.produto }}</td>
             <td>{{ posto.preco }}</td>
