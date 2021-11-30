@@ -61,12 +61,12 @@ def about():
     return render_template('about.html', titulo='Sobre')
 
 
-@app.route('/postosPorBairro/', methods=['POST', ])
+@app.route('/postosPorBairro', methods=['POST','GET' ])
 def postosPorBairro():
-    posto = posto_dao.busca_por_bairro(request.form['bairroUsuario'])
-    if posto:
-        posto.bairro == request.form['bairroUsuario']
-    return render_template('postos.html', titulo='Postos por bairro')
+    lista = posto_dao.busca_por_bairro(request.form['bairroUsuario'])
+    # if posto:
+    #     posto.bairro == request.form['bairroUsuario']
+    return render_template('postos.html', titulo='Postos por bairro',postos=lista)
 
 
 # @app.route('/buscarPosto', methods=[])
@@ -91,9 +91,10 @@ def cadastrarPreco():
     nome = request.form['nome']
     preco = request.form['preco']
     produto = request.form['Combustivelform']
+    endereco = request.form['endereco']
     bairro = request.form['Bairroform']
     bandeira = request.form['Bandeiraform']
-    posto = Posto(preco, produto, bairro, nome, bandeira)
+    posto = Posto(preco, produto, endereco, bairro, nome, bandeira)
     posto_dao.salvar(posto)
     flash(request.form['nome'] + ' cadastrado com sucesso!')
     return redirect(url_for('listarPostos'))
