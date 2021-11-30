@@ -17,6 +17,7 @@
         </fieldset>
     </form>
     <h3 class="text-center mt-2"> {% block local %}  Localização do posto mais próximo {% endblock %} </h3>
+    
     <!-- Fonte para mapa: https://jonathansoma.com/tutorials/webapps/mapping-our-schools/-->
     <div id="map" style="height: 500px; "></div>
     <script type="text/javascript">
@@ -30,7 +31,7 @@
         // The first parameter are the coordinates of the center of the map
         // The second parameter is the zoom level
         var map = L.map('map').setView([-23.5506507, -46.6333824], 12);
-
+        
         // {s}, {z}, {x} and {y} are placeholders for map tiles
         // {x} and {y} are the x/y of where you are on the map
         // {z} is the zoom level
@@ -41,6 +42,9 @@
 
         // Now add the layer onto the map
         map.addLayer(layer);
+        
+        L.marker([-23.5506507, -46.6333824]).addTo(map)
+  .bindPopup("<strong>Sé</strong>").openPopup();
 
         // Transforma o input do endereço para maiúsculo
         $(function() {
