@@ -35,14 +35,14 @@ conn.cursor().execute(criar_tabelas)
 # inserindo POSTOS
 cursor = conn.cursor()
 cursor.executemany(
-      'INSERT INTO pi_grupo04_2021.POSTO (id, preco, produto, endereco, bairro, nome, bandeira) VALUES (%s, %s, %s, %s, %s, %s, %s)',
+      'INSERT INTO POSTO (id, preco, produto, endereco, bairro, nome, bandeira) VALUES (%s, %s, %s, %s, %s, %s, %s)',
       [
             (1, 5.9, 'GASOLINA', 'AVENIDA VITAL BRASIL, 911', 'BUTANTA', 'POSTO UNIVERSIDADE EIRELI', 'IPIRANGA'),
             (2, 5.3, 'ETANOL', 'AVENIDA NOVE DE JULHO, 3062', 'JARDIM PAULISTA', 'AUTO POSTO JOSE MARIA LISBOA LTDA', 'PETROBRAS DISTRIBUIDORA S.A.'),
             (3, 5.4, 'ETANOL', 'AVENIDA SAO JOAO, 2167', 'SANTA CECILIA', 'POSTO MARECHAL LTDA', 'BRANCA')
       ])
 
-cursor.execute('select * from pi_grupo04_2021.POSTO')
+cursor.execute('select * from POSTO')
 print(' -------------  POSTOS:  -------------')
 for posto in cursor.fetchall():
     print(posto)
