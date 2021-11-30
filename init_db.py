@@ -35,11 +35,12 @@ conn.cursor().execute(criar_tabelas)
 # inserindo POSTOS
 cursor = conn.cursor()
 cursor.executemany(
-      'INSERT INTO POSTO (id, preco, produto, endereco, bairro, nome, bandeira) VALUES (%s, %s, %s, %s, %s, %s, %s)',
+      'INSERT INTO POSTO (preco, produto, endereco, bairro, nome, bandeira) VALUES (%s, %s, %s, %s, %s, %s)',
       [
-            (1, 5.9, 'GASOLINA', 'AVENIDA VITAL BRASIL, 911', 'BUTANTA', 'POSTO UNIVERSIDADE EIRELI', 'IPIRANGA'),
-            (2, 5.3, 'ETANOL', 'AVENIDA NOVE DE JULHO, 3062', 'JARDIM PAULISTA', 'AUTO POSTO JOSE MARIA LISBOA LTDA', 'PETROBRAS DISTRIBUIDORA S.A.'),
-            (3, 5.4, 'ETANOL', 'AVENIDA SAO JOAO, 2167', 'SANTA CECILIA', 'POSTO MARECHAL LTDA', 'BRANCA')
+            (5.9, 'GASOLINA', 'AVENIDA VITAL BRASIL, 911', 'BUTANTA', 'POSTO UNIVERSIDADE EIRELI', 'IPIRANGA'),
+            (5.3, 'ETANOL', 'AVENIDA NOVE DE JULHO, 3062', 'JARDIM PAULISTA', 'AUTO POSTO JOSE MARIA LISBOA LTDA', 'PETROBRAS DISTRIBUIDORA S.A.'),
+            (5.4, 'ETANOL', 'AVENIDA SAO JOAO, 2167', 'SANTA CECILIA', 'POSTO MARECHAL LTDA', 'BRANCA'),
+            (5.4, 'ETANOL', 'AVENIDA ACLIMACAO, 11', 'ACLIMACAO', 'AUTO POSTO ALTO DA ACLIMACAO LTDA', 'BRANCA')
       ])
 
 cursor.execute('select * from POSTO')
