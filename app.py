@@ -91,9 +91,10 @@ def cadastrarPreco():
     nome = request.form['nome']
     preco = request.form['preco']
     produto = request.form['Combustivelform']
+    endereco = request.form['endereco']
     bairro = request.form['Bairroform']
     bandeira = request.form['Bandeiraform']
-    posto = Posto(preco, produto, bairro, nome, bandeira)
+    posto = Posto(preco, produto, endereco, bairro, nome, bandeira)
     posto_dao.salvar(posto)
     flash(request.form['nome'] + ' cadastrado com sucesso!')
     return redirect(url_for('listarPostos'))
